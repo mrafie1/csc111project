@@ -1,1 +1,1323 @@
+[{
+    "name": "Kyrie Irving",
+    "positions": ["Guard"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "Spencer Dinwiddie": {
+        "positions": ["Guard"],
+        "total_passes": 280,
+        "assists": 17,
+        "minutes_together": 716
+      },
+      "PJ Washington": {
+        "positions": ["Forward"],
+        "total_passes": 279,
+        "assists": 28,
+        "minutes_together": 964
+      },
+      "Klay Thompson": {
+        "positions": ["Guard"],
+        "total_passes": 234,
+        "assists": 32,
+        "minutes_together": 998
+      },
+      "Dereck Lively": {
+        "positions": ["Center"],
+        "total_passes": 107,
+        "assists": 17,
+        "minutes_together": 433
+      },
+      "Naji Marshall": {
+        "positions": ["Forward"],
+        "total_passes": 266,
+        "assists": 21,
+        "minutes_together": 709
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 71,
+        "assists": 9,
+        "minutes_together": 265
+      },
+      "Anthony Davis": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 11,
+        "assists": 2,
+        "minutes_together": 25
+      },
+      "Kessler Edwards": {
+        "positions": ["Forward"],
+        "total_passes": 53,
+        "assists": 2,
+        "minutes_together": 199
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 72,
+        "assists": 4,
+        "minutes_together": 136
+      },
+      "Dwight Powell": {
+        "positions": ["Center"],
+        "total_passes": 32,
+        "assists": 3,
+        "minutes_together": 122
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 180,
+        "assists": 33,
+        "minutes_together": 772
+      },
+      "Jaden Hardy": {
+        "positions": ["Guard"],
+        "total_passes": 65,
+        "assists": 4,
+        "minutes_together": 194
+      },
+      "Olivier-Maxence Prosper": {
+        "positions": ["Forward"],
+        "total_passes": 76,
+        "assists": 11,
+        "minutes_together": 253
+      },
+      "Brandon Williams": {
+        "positions": ["Guard"],
+        "total_passes": 5,
+        "assists": 0,
+        "minutes_together": 14
+      }
+    },
+    "defensive_stats": {
+      "games": 50,
+      "steals": 66,
+      "blocks": 23
+    }
+  },
+
+{
+    "name": "Anthony Davis",
+    "positions": ["Center", "Forward"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "Spencer Dinwiddie": {
+        "positions": ["Guard"],
+        "total_passes": 1,
+        "assists": 7,
+        "minutes_together": 14
+      },
+      "PJ Washington": {
+        "positions": ["Forward"],
+        "total_passes": 1,
+        "assists": 2,
+        "minutes_together": 13
+      },
+      "Naji Marshall": {
+        "positions": ["Forward"],
+        "total_passes": 1,
+        "assists": 2,
+        "minutes_together": 15
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 2,
+        "assists": 6,
+        "minutes_together": 15
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 10,
+        "assists": 0,
+        "minutes_together": 17
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 1,
+        "assists": 1,
+        "minutes_together": 9
+      },
+      "Kyrie Irving": {
+        "positions": ["Guard"],
+        "total_passes": 15,
+        "assists": 0,
+        "minutes_together": 25
+      },
+      "Klay Thompson": {
+        "positions": ["Guard"],
+        "total_passes": 3,
+        "assists": 1,
+        "minutes_together": 14
+      }
+    },
+    "defensive_stats": {
+      "games": 1,
+      "steals": 0,
+      "blocks": 3
+    }
+  },
+
+  {
+    "name": "Klay Thompson",
+    "positions": ["Guard"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "Spencer Dinwiddie": {
+        "positions": ["Guard"],
+        "total_passes": 123,
+        "assists": 3,
+        "minutes_together": 640
+      },
+      "PJ Washington": {
+        "positions": ["Forward"],
+        "total_passes": 98,
+        "assists": 14,
+        "minutes_together": 854
+      },
+      "Dereck Lively": {
+        "positions": ["Center"],
+        "total_passes": 93,
+        "assists": 15,
+        "minutes_together": 453
+      },
+      "Naji Marshall": {
+        "positions": ["Forward"],
+        "total_passes": 78,
+        "assists": 6,
+        "minutes_together": 557
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 28,
+        "assists": 4,
+        "minutes_together": 260
+      },
+      "Anthony Davis": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 14
+      },
+      "Kessler Edwards": {
+        "positions": ["Forward"],
+        "total_passes": 37,
+        "assists": 4,
+        "minutes_together": 222
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 43,
+        "assists": 6,
+        "minutes_together": 173
+      },
+      "Dwight Powell": {
+        "positions": ["Center"],
+        "total_passes": 16,
+        "assists": 2,
+        "minutes_together": 131
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 86,
+        "assists": 17,
+        "minutes_together": 570
+      },
+      "Jaden Hardy": {
+        "positions": ["Guard"],
+        "total_passes": 27,
+        "assists": 5,
+        "minutes_together": 163
+      },
+      "Olivier-Maxence Prosper": {
+        "positions": ["Forward"],
+        "total_passes": 32,
+        "assists": 5,
+        "minutes_together": 184
+      },
+      "Kyrie Irving": {
+        "positions": ["Guard"],
+        "total_passes": 159,
+        "assists": 14,
+        "minutes_together": 998
+      },
+      "Brandon Williams": {
+        "positions": ["Guard"],
+        "total_passes": 21,
+        "assists": 1,
+        "minutes_together": 82
+      }
+    },
+    "defensive_stats": {
+      "games": 58,
+      "steals": 45,
+      "blocks": 28
+    }
+  },
+
+  {
+    "name": "P.J. Washington",
+    "positions": ["Forward"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "Spencer Dinwiddie": {
+        "positions": ["Guard"],
+        "total_passes": 363,
+        "assists": 15,
+        "minutes_together": 740
+      },
+      "Klay Thompson": {
+        "positions": ["Guard"],
+        "total_passes": 121,
+        "assists": 19,
+        "minutes_together": 854
+      },
+      "Dereck Lively": {
+        "positions": ["Center"],
+        "total_passes": 58,
+        "assists": 12,
+        "minutes_together": 513
+      },
+      "Naji Marshall": {
+        "positions": ["Forward"],
+        "total_passes": 169,
+        "assists": 12,
+        "minutes_together": 468
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 23,
+        "assists": 1,
+        "minutes_together": 88
+      },
+      "Anthony Davis": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 13
+      },
+      "Kessler Edwards": {
+        "positions": ["Forward"],
+        "total_passes": 11,
+        "assists": 1,
+        "minutes_together": 76
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 29,
+        "assists": 1,
+        "minutes_together": 46
+      },
+      "Dwight Powell": {
+        "positions": ["Center"],
+        "total_passes": 9,
+        "assists": 1,
+        "minutes_together": 56
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 55,
+        "assists": 13,
+        "minutes_together": 580
+      },
+      "Jaden Hardy": {
+        "positions": ["Guard"],
+        "total_passes": 117,
+        "assists": 7,
+        "minutes_together": 259
+      },
+      "Olivier-Maxence Prosper": {
+        "positions": ["Forward"],
+        "total_passes": 18,
+        "assists": 1,
+        "minutes_together": 98
+      },
+      "Kyrie Irving": {
+        "positions": ["Guard"],
+        "total_passes": 406,
+        "assists": 15,
+        "minutes_together": 964
+      },
+      "Brandon Williams": {
+        "positions": ["Guard"],
+        "total_passes": 21,
+        "assists": 1,
+        "minutes_together": 42
+      }
+    },
+    "defensive_stats": {
+      "games": 47,
+      "steals": 55,
+      "blocks": 50
+    }
+  },
+
+  {
+    "name": "Spencer Dinwiddie",
+    "positions": ["Guard"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "PJ Washington": {
+        "positions": ["Forward"],
+        "total_passes": 216,
+        "assists": 32,
+        "minutes_together": 740
+      },
+      "Klay Thompson": {
+        "positions": ["Guard"],
+        "total_passes": 181,
+        "assists": 26,
+        "minutes_together": 640
+      },
+      "Dereck Lively": {
+        "positions": ["Center"],
+        "total_passes": 90,
+        "assists": 13,
+        "minutes_together": 343
+      },
+      "Naji Marshall": {
+        "positions": ["Forward"],
+        "total_passes": 241,
+        "assists": 31,
+        "minutes_together": 703
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 96,
+        "assists": 10,
+        "minutes_together": 282
+      },
+      "Anthony Davis": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 3,
+        "assists": 0,
+        "minutes_together": 14
+      },
+      "Kessler Edwards": {
+        "positions": ["Forward"],
+        "total_passes": 47,
+        "assists": 6,
+        "minutes_together": 212
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 36,
+        "assists": 4,
+        "minutes_together": 135
+      },
+      "Dwight Powell": {
+        "positions": ["Center"],
+        "total_passes": 41,
+        "assists": 2,
+        "minutes_together": 198
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 175,
+        "assists": 27,
+        "minutes_together": 551
+      },
+      "Jaden Hardy": {
+        "positions": ["Guard"],
+        "total_passes": 98,
+        "assists": 11,
+        "minutes_together": 307
+      },
+      "Olivier-Maxence Prosper": {
+        "positions": ["Forward"],
+        "total_passes": 83,
+        "assists": 8,
+        "minutes_together": 324
+      },
+      "Kyrie Irving": {
+        "positions": ["Guard"],
+        "total_passes": 312,
+        "assists": 28,
+        "minutes_together": 716
+      },
+      "Brandon Williams": {
+        "positions": ["Guard"],
+        "total_passes": 37,
+        "assists": 6,
+        "minutes_together": 113
+      }
+    },
+    "defensive_stats": {
+      "games": 64,
+      "steals": 54,
+      "blocks": 14
+    }
+  },
+
+  {
+    "name": "Naji Marshall",
+    "positions": ["Forward"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "Spencer Dinwiddie": {
+        "positions": ["Guard"],
+        "total_passes": 262,
+        "assists": 8,
+        "minutes_together": 703
+      },
+      "PJ Washington": {
+        "positions": ["Forward"],
+        "total_passes": 113,
+        "assists": 9,
+        "minutes_together": 468
+      },
+      "Klay Thompson": {
+        "positions": ["Guard"],
+        "total_passes": 112,
+        "assists": 22,
+        "minutes_together": 557
+      },
+      "Dereck Lively": {
+        "positions": ["Center"],
+        "total_passes": 80,
+        "assists": 7,
+        "minutes_together": 298
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 120,
+        "assists": 8,
+        "minutes_together": 355
+      },
+      "Anthony Davis": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 15
+      },
+      "Kessler Edwards": {
+        "positions": ["Forward"],
+        "total_passes": 30,
+        "assists": 5,
+        "minutes_together": 195
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 68,
+        "assists": 4,
+        "minutes_together": 156
+      },
+      "Dwight Powell": {
+        "positions": ["Center"],
+        "total_passes": 37,
+        "assists": 3,
+        "minutes_together": 157
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 101,
+        "assists": 17,
+        "minutes_together": 394
+      },
+      "Jaden Hardy": {
+        "positions": ["Guard"],
+        "total_passes": 103,
+        "assists": 6,
+        "minutes_together": 304
+      },
+      "Olivier-Maxence Prosper": {
+        "positions": ["Forward"],
+        "total_passes": 31,
+        "assists": 3,
+        "minutes_together": 190
+      },
+      "Kyrie Irving": {
+        "positions": ["Guard"],
+        "total_passes": 310,
+        "assists": 23,
+        "minutes_together": 709
+      },
+      "Brandon Williams": {
+        "positions": ["Guard"],
+        "total_passes": 50,
+        "assists": 3,
+        "minutes_together": 111
+      }
+    },
+    "defensive_stats": {
+      "games": 53,
+      "steals": 56,
+      "blocks": 7
+    }
+  },
+
+{
+  "name": "Daniel Gafford",
+  "positions": ["Center"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 183,
+      "assists": 5,
+      "minutes_together": 551
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 129,
+      "assists": 6,
+      "minutes_together": 580
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 113,
+      "assists": 12,
+      "minutes_together": 570
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 103,
+      "assists": 8,
+      "minutes_together": 394
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 11,
+      "assists": 1,
+      "minutes_together": 62
+    },
+    "Anthony Davis": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 9
+    },
+    "Kessler Edwards": {
+      "positions": ["Forward"],
+      "total_passes": 8,
+      "assists": 2,
+      "minutes_together": 103
+    },
+    "Dante Exum": {
+      "positions": ["Guard"],
+      "total_passes": 25,
+      "assists": 0,
+      "minutes_together": 52
+    },
+    "Dwight Powell": {
+      "positions": ["Center"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 7
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 52,
+      "assists": 5,
+      "minutes_together": 208
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 8,
+      "assists": 0,
+      "minutes_together": 110
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 299,
+      "assists": 21,
+      "minutes_together": 772
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 14,
+      "assists": 1,
+      "minutes_together": 39
+    }
+  },
+  "defensive_stats": {
+    "games": 51,
+    "steals": 21,
+    "blocks": 96
+  }
+},
+
+{
+  "name": "Dwight Powell",
+  "positions": ["Forward", "Center"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 63,
+      "assists": 3,
+      "minutes_together": 198
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 18,
+      "assists": 3,
+      "minutes_together": 56
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 37,
+      "assists": 8,
+      "minutes_together": 131
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 34,
+      "assists": 0,
+      "minutes_together": 157
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 30,
+      "assists": 2,
+      "minutes_together": 68
+    },
+    "Kessler Edwards": {
+      "positions": ["Forward"],
+      "total_passes": 8,
+      "assists": 1,
+      "minutes_together": 48
+    },
+    "Dante Exum": {
+      "positions": ["Guard"],
+      "total_passes": 28,
+      "assists": 1,
+      "minutes_together": 48
+    },
+    "Daniel Gafford": {
+      "positions": ["Forward", "Center"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 7
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 44,
+      "assists": 4,
+      "minutes_together": 112
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 16,
+      "assists": 2,
+      "minutes_together": 119
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 53,
+      "assists": 4,
+      "minutes_together": 122
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 32,
+      "assists": 1,
+      "minutes_together": 56
+    }
+  },
+  "defensive_stats": {
+    "games": 41,
+    "steals": 12,
+    "blocks": 20
+  }
+},
+
+{
+  "name": "Max Christie",
+  "positions": ["Guard"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 110,
+      "assists": 1,
+      "minutes_together": 282
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 13,
+      "assists": 1,
+      "minutes_together": 88
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 60,
+      "assists": 16,
+      "minutes_together": 260
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 94,
+      "assists": 12,
+      "minutes_together": 355
+    },
+    "Kessler Edwards": {
+      "positions": ["Forward"],
+      "total_passes": 39,
+      "assists": 2,
+      "minutes_together": 191
+    },
+    "Dante Exum": {
+      "positions": ["Guard"],
+      "total_passes": 51,
+      "assists": 7,
+      "minutes_together": 141
+    },
+    "Dwight Powell": {
+      "positions": ["Center"],
+      "total_passes": 16,
+      "assists": 1,
+      "minutes_together": 68
+    },
+    "Daniel Gafford": {
+      "positions": ["Forward", "Center"],
+      "total_passes": 7,
+      "assists": 1,
+      "minutes_together": 62
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 15,
+      "assists": 0,
+      "minutes_together": 39
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 17,
+      "assists": 1,
+      "minutes_together": 129
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 96,
+      "assists": 7,
+      "minutes_together": 265
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 24,
+      "assists": 0,
+      "minutes_together": 89
+    }
+  },
+  "defensive_stats": {
+    "games": 16,
+    "steals": 16,
+    "blocks": 6
+  }
+},
+
+{
+  "name": "Olivier-Maxence Prosper",
+  "positions": ["Forward"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 115,
+      "assists": 2,
+      "minutes_together": 324
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 19,
+      "assists": 2,
+      "minutes_together": 98
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 34,
+      "assists": 6,
+      "minutes_together": 184
+    },
+    "Dereck Lively": {
+      "positions": ["Center"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 44
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 62,
+      "assists": 4,
+      "minutes_together": 190
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 30,
+      "assists": 2,
+      "minutes_together": 129
+    },
+    "Kessler Edwards": {
+      "positions": ["Forward"],
+      "total_passes": 14,
+      "assists": 3,
+      "minutes_together": 147
+    },
+    "Dante Exum": {
+      "positions": ["Guard"],
+      "total_passes": 25,
+      "assists": 1,
+      "minutes_together": 74
+    },
+    "Dwight Powell": {
+      "positions": ["Center"],
+      "total_passes": 12,
+      "assists": 1,
+      "minutes_together": 119
+    },
+    "Daniel Gafford": {
+      "positions": ["Forward", "Center"],
+      "total_passes": 9,
+      "assists": 2,
+      "minutes_together": 110
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 40,
+      "assists": 5,
+      "minutes_together": 151
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 80,
+      "assists": 4,
+      "minutes_together": 253
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 34,
+      "assists": 3,
+      "minutes_together": 111
+    }
+  },
+  "defensive_stats": {
+    "games": 52,
+    "steals": 26,
+    "blocks": 6
+  }
+},
+
+{
+  "name": "Dereck Lively",
+  "positions": ["Center"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 138,
+      "assists": 1,
+      "minutes_together": 343
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 66,
+      "assists": 6,
+      "minutes_together": 513
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 132,
+      "assists": 24,
+      "minutes_together": 453
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 69,
+      "assists": 9,
+      "minutes_together": 298
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 67,
+      "assists": 3,
+      "minutes_together": 185
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 44
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 189,
+      "assists": 15,
+      "minutes_together": 433
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 4
+    }
+  },
+  "defensive_stats": {
+    "games": 32,
+    "steals": 17,
+    "blocks": 54
+  }
+},
+
+{
+  "name": "Dante Exum",
+  "positions": ["Guard"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 42,
+      "assists": 4,
+      "minutes_together": 135
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 26,
+      "assists": 3,
+      "minutes_together": 46
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 61,
+      "assists": 12,
+      "minutes_together": 173
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 49,
+      "assists": 4,
+      "minutes_together": 156
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 50,
+      "assists": 4,
+      "minutes_together": 141
+    },
+    "Anthony Davis": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 13,
+      "assists": 1,
+      "minutes_together": 17
+    },
+    "Kessler Edwards": {
+      "positions": ["Forward"],
+      "total_passes": 49,
+      "assists": 5,
+      "minutes_together": 150
+    },
+    "Dwight Powell": {
+      "positions": ["Center"],
+      "total_passes": 34,
+      "assists": 1,
+      "minutes_together": 48
+    },
+    "Daniel Gafford": {
+      "positions": ["Forward", "Center"],
+      "total_passes": 18,
+      "assists": 2,
+      "minutes_together": 52
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 9,
+      "assists": 2,
+      "minutes_together": 30
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 20,
+      "assists": 1,
+      "minutes_together": 74
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 83,
+      "assists": 5,
+      "minutes_together": 136
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 21
+    }
+  },
+  "defensive_stats": {
+    "games": 16,
+    "steals": 11,
+    "blocks": 3
+  }
+},
+
+{
+  "name": "Kessler Edwards",
+  "positions": ["Forward"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 74,
+      "assists": 1,
+      "minutes_together": 212
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 17,
+      "assists": 2,
+      "minutes_together": 76
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 52,
+      "assists": 10,
+      "minutes_together": 222
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 51,
+      "assists": 4,
+      "minutes_together": 195
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 49,
+      "assists": 3,
+      "minutes_together": 191
+    },
+    "Dante Exum": {
+      "positions": ["Guard"],
+      "total_passes": 99,
+      "assists": 3,
+      "minutes_together": 150
+    },
+    "Dwight Powell": {
+      "positions": ["Center"],
+      "total_passes": 5,
+      "assists": 2,
+      "minutes_together": 48
+    },
+    "Daniel Gafford": {
+      "positions": ["Forward", "Center"],
+      "total_passes": 9,
+      "assists": 2,
+      "minutes_together": 103
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 27,
+      "assists": 2,
+      "minutes_together": 67
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 20,
+      "assists": 2,
+      "minutes_together": 147
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 85,
+      "assists": 5,
+      "minutes_together": 199
+    },
+    "Brandon Williams": {
+      "positions": ["Guard"],
+      "total_passes": 52,
+      "assists": 2,
+      "minutes_together": 124
+    }
+  },
+  "defensive_stats": {
+    "games": 35,
+    "steals": 16,
+    "blocks": 15
+  }
+},
+
+{
+  "name": "Brandon Williams",
+  "positions": ["Guard"],
+  "team": "Dallas Mavericks",
+  "passes_to": {
+    "Spencer Dinwiddie": {
+      "positions": ["Guard"],
+      "total_passes": 38,
+      "assists": 0,
+      "minutes_together": 113
+    },
+    "PJ Washington": {
+      "positions": ["Forward"],
+      "total_passes": 15,
+      "assists": 2,
+      "minutes_together": 42
+    },
+    "Klay Thompson": {
+      "positions": ["Guard"],
+      "total_passes": 25,
+      "assists": 4,
+      "minutes_together": 82
+    },
+    "Dereck Lively": {
+      "positions": ["Center"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 4
+    },
+    "Naji Marshall": {
+      "positions": ["Forward"],
+      "total_passes": 52,
+      "assists": 6,
+      "minutes_together": 111
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 30,
+      "assists": 2,
+      "minutes_together": 89
+    },
+    "Kessler Edwards": {
+      "positions": ["Forward"],
+      "total_passes": 38,
+      "assists": 10,
+      "minutes_together": 124
+    },
+    "Dante Exum": {
+      "positions": ["Guard"],
+      "total_passes": 7,
+      "assists": 0,
+      "minutes_together": 21
+    },
+    "Dwight Powell": {
+      "positions": ["Center"],
+      "total_passes": 24,
+      "assists": 0,
+      "minutes_together": 56
+    },
+    "Daniel Gafford": {
+      "positions": ["Forward", "Center"],
+      "total_passes": 13,
+      "assists": 4,
+      "minutes_together": 39
+    },
+    "Jaden Hardy": {
+      "positions": ["Guard"],
+      "total_passes": 35,
+      "assists": 2,
+      "minutes_together": 73
+    },
+    "Olivier-Maxence Prosper": {
+      "positions": ["Forward"],
+      "total_passes": 27,
+      "assists": 6,
+      "minutes_together": 111
+    },
+    "Kyrie Irving": {
+      "positions": ["Guard"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 14
+    },
+    "Jazian Gortman": {
+      "positions": ["Guard"],
+      "total_passes": 5,
+      "assists": 1,
+      "minutes_together": 13
+    }
+  },
+  "defensive_stats": {
+    "games": 23,
+    "steals": 11,
+    "blocks": 2
+  }
+},
+
+  {
+    "name": "Jaden Hardy",
+    "positions": ["Guard"],
+    "team": "Dallas Mavericks",
+    "passes_to": {
+      "Spencer Dinwiddie": {
+        "positions": ["Guard"],
+        "total_passes": 84,
+        "assists": 3,
+        "minutes_together": 307
+      },
+      "PJ Washington": {
+        "positions": ["Forward"],
+        "total_passes": 40,
+        "assists": 3,
+        "minutes_together": 259
+      },
+      "Klay Thompson": {
+        "positions": ["Guard"],
+        "total_passes": 34,
+        "assists": 7,
+        "minutes_together": 163
+      },
+      "Dereck Lively": {
+        "positions": ["Center"],
+        "total_passes": 47,
+        "assists": 6,
+        "minutes_together": 185
+      },
+      "Naji Marshall": {
+        "positions": ["Forward"],
+        "total_passes": 89,
+        "assists": 5,
+        "minutes_together": 304
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 11,
+        "assists": 1,
+        "minutes_together": 39
+      },
+      "Kessler Edwards": {
+        "positions": ["Forward"],
+        "total_passes": 12,
+        "assists": 2,
+        "minutes_together": 67
+      },
+      "Dante Exum": {
+        "positions": ["Guard"],
+        "total_passes": 12,
+        "assists": 0,
+        "minutes_together": 30
+      },
+      "Dwight Powell": {
+        "positions": ["Center"],
+        "total_passes": 24,
+        "assists": 2,
+        "minutes_together": 112
+      },
+      "Daniel Gafford": {
+        "positions": ["Forward", "Center"],
+        "total_passes": 41,
+        "assists": 8,
+        "minutes_together": 208
+      },
+      "Olivier-Maxence Prosper": {
+        "positions": ["Forward"],
+        "total_passes": 24,
+        "assists": 2,
+        "minutes_together": 151
+      },
+      "Kyrie Irving": {
+        "positions": ["Guard"],
+        "total_passes": 51,
+        "assists": 6,
+        "minutes_together": 194
+      },
+      "Brandon Williams": {
+        "positions": ["Guard"],
+        "total_passes": 21,
+        "assists": 1,
+        "minutes_together": 73
+      }
+    },
+    "defensive_stats": {
+      "games": 46,
+      "steals": 22,
+      "blocks": 5
+    }
+  }]
 
