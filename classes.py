@@ -14,22 +14,22 @@ class _Player:
     avg_assists: float
     avg_steals: float
     avg_blocks: float
-    games: int
+    minutes: int
     player_impact_estimate: float
     connections: list[_Connection]
 
     # Add further statistics attributes
 
-    def __init__(self, name: str, team: str, position: list, points: int, rebounds: int, assists: int, games: int, steals: int, blocks: int) -> None:
+    def __init__(self, name: str, team: str, position: list, points: int, rebounds: int, assists: int, minutes: int, steals: int, blocks: int) -> None:
         self.name = name
         self.team = team
         self.position = position
-        self.avg_points = points/games
-        self.avg_rebounds = rebounds/games
-        self.avg_assists = assists/games
-        self.avg_steals = steals/games
-        self.avg_blocks = blocks/games
-        self.games = games
+        self.avg_points = points/minutes
+        self.avg_rebounds = rebounds/minutes
+        self.avg_assists = assists/minutes
+        self.avg_steals = steals/minutes
+        self.avg_blocks = blocks/minutes
+        self.minutes = minutes
 
         self.connections = []
         # Change later
@@ -47,7 +47,15 @@ class _Connection:
     # We can possibly just combine both of these later
     player1_avg_assists_per_pass: Optional[float]
     player2_avg_assists_per_pass: Optional[float]
+    max_avg_assists_per_pass: Optional[float]
     avg_passes_per_minute: float
+
+    def __init__(self, player1: _Player, player2: _Player):
+        self.player_connection = [player1, player2]
+        self.player1_avg_assists_per_pass = 0
+        self.player2_avg_assists_per_pass = 0
+        self.avg_passes_per_minute = 0
+
 
 
 class Graph:
@@ -59,3 +67,11 @@ class Graph:
     #     - _players: A collection of the players contained in this graph.
     #                  Maps name to _Player instance.
     _players: dict[str, _Player]
+    _connections: set[_Connection]
+
+    def __init__(self):
+        self._players = {}
+
+    def add_player(self, player: _Player):
+        if player.name not in self._players:
+            self._players[player.name] = player
