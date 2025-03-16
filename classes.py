@@ -7,13 +7,35 @@ class _Player:
     Analogous to the _vertex class in a graph.
     """
     name: str
+    team: str
+    position: str
     avg_points: float
     avg_rebounds: float
     avg_assists: float
+    avg_steals: float
+    avg_blocks: float
+    games: int
     player_impact_estimate: float
     connections: list[_Connection]
 
     # Add further statistics attributes
+
+    def __init__(self, name: str, team: str, position: str, points: int, rebounds: int, assists: int, games: int, steals: int, blocks: int) -> None:
+        self.name = name
+        self.team = team
+        self.position = position
+        self.avg_points = points/games
+        self.avg_rebounds = rebounds/games
+        self.avg_assists = assists/games
+        self.avg_steals = steals/games
+        self.avg_blocks = blocks/games
+        self.games = games
+
+        self.connections = []
+        # Change later
+        self.player_impact_estimate = 0
+
+
 
 
 class _Connection:
@@ -22,12 +44,13 @@ class _Connection:
         - len(player_connection) == 2 or len(player_connection) == 0
     """
     player_connection: list[_Player]
-    player1_avg_assists: Optional[float]
-    player2_avg_assists: Optional[float]
-    # Add further statistic attributes
+    # We can possibly just combine both of these later
+    player1_avg_assists_per_pass: Optional[float]
+    player2_avg_assists_per_pass: Optional[float]
+    avg_passes_per_minute: float
 
 
-class Teamgraph:
+class Graph:
     """ A graph whose vertices are _player class.
     Representation Invariants:
     - all(name == self._players[name].name for name in self._players)
