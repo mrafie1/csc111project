@@ -90,18 +90,6 @@
   "positions": ["Forward"],
   "team": "Los Angeles Lakers",
   "passes_to": {
-    "Quincy Olivari": {
-      "positions": ["Guard"],
-      "total_passes": 2,
-      "assists": 0,
-      "minutes_together": 4
-    },
-    "Armel Traoré": {
-      "positions": ["Forward"],
-      "total_passes": 3,
-      "assists": 0,
-      "minutes_together": 21
-    },
     "Bronny James": {
       "positions": ["Guard"],
       "total_passes": 5,
@@ -482,18 +470,6 @@
   "positions": ["Guard"],
   "team": "Los Angeles Lakers",
   "passes_to": {
-    "Quincy Olivari": {
-      "positions": ["Guard"],
-      "total_passes": 4,
-      "assists": 0,
-      "minutes_together": 3
-    },
-    "Armel Traoré": {
-      "positions": ["Forward"],
-      "total_passes": 2,
-      "assists": 0,
-      "minutes_together": 8
-    },
     "Dalton Knecht": {
       "positions": ["Guard"],
       "total_passes": 20,
@@ -604,18 +580,6 @@
   "positions": ["Center"],
   "team": "Los Angeles Lakers",
   "passes_to": {
-    "Quincy Olivari": {
-      "positions": ["Guard"],
-      "total_passes": 1,
-      "assists": 0,
-      "minutes_together": 6
-    },
-    "Armel Traoré": {
-      "positions": ["Forward"],
-      "total_passes": 2,
-      "assists": 0,
-      "minutes_together": 29
-    },
     "Bronny James": {
       "positions": ["Guard"],
       "total_passes": 14,
@@ -627,18 +591,6 @@
       "total_passes": 26,
       "assists": 6,
       "minutes_together": 167
-    },
-    "Maxwell Lewis": {
-      "positions": ["Forward"],
-      "total_passes": 4,
-      "assists": 0,
-      "minutes_together": 28
-    },
-    "Jalen Hood-Schifino": {
-      "positions": ["Guard"],
-      "total_passes": 1,
-      "assists": 0,
-      "minutes_together": 1
     },
     "Max Christie": {
       "positions": ["Guard"],
@@ -720,12 +672,6 @@
   "positions": ["Center", "Forward"],
   "team": "Los Angeles Lakers",
   "passes_to": {
-    "Quincy Olivari": {
-      "positions": ["Guard"],
-      "total_passes": 1,
-      "assists": 0,
-      "minutes_together": 2
-    },
     "Bronny James": {
       "positions": ["Guard"],
       "total_passes": 5,
@@ -940,29 +886,11 @@
     "positions": ["Forward"],
     "team": "Los Angeles Lakers",
     "passes_to": {
-      "Bronny James": {
-        "positions": ["Guard"],
-        "total_passes": 4,
-        "assists": 0,
-        "minutes_together": 0
-      },
       "Dalton Knecht": {
         "positions": ["Guard"],
         "total_passes": 14,
         "assists": 2,
         "minutes_together": 1
-      },
-      "Trey Jemison III": {
-        "positions": ["Center"],
-        "total_passes": 4,
-        "assists": 0,
-        "minutes_together": 0
-      },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 2,
-        "assists": 0,
-        "minutes_together": 0
       },
       "Max Christie": {
         "positions": ["Guard"],
@@ -988,12 +916,6 @@
         "assists": 1,
         "minutes_together": 1
       },
-      "Cam Reddish": {
-        "positions": ["Forward"],
-        "total_passes": 1,
-        "assists": 0,
-        "minutes_together": 0
-      },
       "Gabe Vincent": {
         "positions": ["Guard"],
         "total_passes": 57,
@@ -1012,29 +934,11 @@
         "assists": 4,
         "minutes_together": 7
       },
-      "Jarred Vanderbilt": {
-        "positions": ["Forward"],
-        "total_passes": 5,
-        "assists": 0,
-        "minutes_together": 0
-      },
       "Shake Milton": {
         "positions": ["Guard"],
         "total_passes": 28,
         "assists": 0,
         "minutes_together": 2
-      },
-      "Alex Len": {
-        "positions": ["Center"],
-        "total_passes": 1,
-        "assists": 0,
-        "minutes_together": 0
-      },
-      "Markieff Morris": {
-        "positions": ["Forward"],
-        "total_passes": 1,
-        "assists": 1,
-        "minutes_together": 0
       },
       "LeBron James": {
         "positions": ["Forward"],
@@ -1134,12 +1038,6 @@
         "assists": 1,
         "minutes_together": 1
       },
-      "Alex Len": {
-        "positions": ["Center"],
-        "total_passes": 2,
-        "assists": 0,
-        "minutes_together": 0
-      },
       "Markieff Morris": {
         "positions": ["Forward"],
         "total_passes": 14,
@@ -1166,12 +1064,6 @@
   "positions": ["Forward"],
   "team": "Los Angeles Lakers",
   "passes_to": {
-    "Armel Traoré": {
-      "positions": ["Forward"],
-      "total_passes": 7,
-      "assists": 1,
-      "minutes_together": 18
-    },
     "Bronny James": {
       "positions": ["Guard"],
       "total_passes": 8,
@@ -1189,12 +1081,6 @@
       "total_passes": 11,
       "assists": 2,
       "minutes_together": 68
-    },
-    "Jalen Hood-Schifino": {
-      "positions": ["Guard"],
-      "total_passes": 1,
-      "assists": 0,
-      "minutes_together": 4
     },
     "Christian Koloko": {
       "positions": ["Center"],
@@ -1520,12 +1406,6 @@
         "assists": 1,
         "minutes_together": 4
       },
-      "Max Christie": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "minutes_together": 0
-      },
       "Jordan Goodwin": {
         "positions": ["Guard"],
         "total_passes": 9,
@@ -1538,12 +1418,7 @@
         "assists": 1,
         "minutes_together": 6
       },
-      "Jaxson Hayes": {
-        "positions": ["Center", "Forward"],
-        "total_passes": 1,
-        "assists": 0,
-        "minutes_together": 0
-      },
+
       "Gabe Vincent": {
         "positions": ["Guard"],
         "total_passes": 13,
@@ -1612,12 +1487,6 @@
         "assists": 5,
         "minutes_together": 1
       },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 5,
-        "assists": 1,
-        "minutes_together": 0
-      },
       "Jordan Goodwin": {
         "positions": ["Guard"],
         "total_passes": 15,
@@ -1671,12 +1540,6 @@
         "total_passes": 9,
         "assists": 0,
         "minutes_together": 1
-      },
-      "Markieff Morris": {
-        "positions": ["Forward"],
-        "total_passes": 3,
-        "assists": 1,
-        "minutes_together": 0
       },
       "LeBron James": {
         "positions": ["Forward"],
