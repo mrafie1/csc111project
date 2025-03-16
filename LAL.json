@@ -1,512 +1,602 @@
 [{
-    "name": "Alex Len",
-    "positions": ["Center"],
-    "team": "Los Angeles Lakers",
-    "passes_to": {
-      "Bronny James": {
-        "positions": ["Guard"],
-        "total_passes": 5,
-        "assists": 0,
-        "games_together": 2
-      },
-      "Dalton Knecht": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 4
-      },
-      "Jordan Goodwin": {
-        "positions": ["Guard"],
-        "total_passes": 3,
-        "assists": 0,
-        "games_together": 2
-      },
-      "Austin Reaves": {
-        "positions": ["Guard"],
-        "total_passes": 8,
-        "assists": 0,
-        "games_together": 3
-      },
-      "Gabe Vincent": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 3
-      },
-      "Rui Hachimura": {
-        "positions": ["Forward"],
-        "total_passes": 3,
-        "assists": 0,
-        "games_together": 3
-      },
-      "Luka Dončić": {
-        "positions": ["Guard", "Forward"],
-        "total_passes": 3,
-        "assists": 0,
-        "games_together": 4
-      },
-      "Shake Milton": {
-        "positions": ["Guard"],
-        "total_passes": 7,
-        "assists": 2,
-        "games_together": 3
-      },
-      "Dorian Finney-Smith": {
-        "positions": ["Forward"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 3
-      },
-      "Markieff Morris": {
-        "positions": ["Forward"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 1
-      },
-      "LeBron James": {
-        "positions": ["Forward"],
-        "total_passes": 8,
-        "assists": 0,
-        "games_together": 4
-      }
+  "name": "Alex Len",
+  "positions": ["Center"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 5,
+      "assists": 0,
+      "minutes_together": 15
     },
-    "defensive_stats": {
-      "games": 4,
-      "steals": 0,
-      "blocks": 1
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 40
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 6,
+      "assists": 0,
+      "minutes_together": 29
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 21,
+      "assists": 0,
+      "minutes_together": 54
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 8,
+      "assists": 2,
+      "minutes_together": 33
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 3,
+      "assists": 0,
+      "minutes_together": 13
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 12,
+      "assists": 1,
+      "minutes_together": 38
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 2,
+      "assists": 1,
+      "minutes_together": 24
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 7,
+      "assists": 2,
+      "minutes_together": 26
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 26
+    },
+    "Markieff Morris": {
+      "positions": ["Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 11
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 8,
+      "assists": 0,
+      "minutes_together": 20
     }
   },
+  "defensive_stats": {
+    "games": 7,
+    "rebounds": 19,
+    "steals": 0,
+    "blocks": 2
+  }
+},
 
 
 {
-    "name": "Cam Reddish",
-    "positions": ["Forward"],
-    "team": "Los Angeles Lakers",
-    "passes_to": {
-      "Bronny James": {
-        "positions": ["Guard"],
-        "total_passes": 5,
-        "assists": 0,
-        "games_together": 8
-      },
-      "Dalton Knecht": {
-        "positions": ["Guard"],
-        "total_passes": 16,
-        "assists": 3,
-        "games_together": 31
-      },
-      "Austin Reaves": {
-        "positions": ["Guard"],
-        "total_passes": 69,
-        "assists": 4,
-        "games_together": 76
-      },
-      "Gabe Vincent": {
-        "positions": ["Guard"],
-        "total_passes": 17,
-        "assists": 1,
-        "games_together": 33
-      },
-      "Rui Hachimura": {
-        "positions": ["Forward"],
-        "total_passes": 12,
-        "assists": 3,
-        "games_together": 65
-      },
-      "Jaxson Hayes": {
-        "positions": ["Center", "Forward"],
-        "total_passes": 7,
-        "assists": 1,
-        "games_together": 53
-      },
-      "Shake Milton": {
-        "positions": ["Guard"],
-        "total_passes": 7,
-        "assists": 0,
-        "games_together": 6
-      },
-      "Dorian Finney-Smith": {
-        "positions": ["Forward"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 7
-      },
-      "LeBron James": {
-        "positions": ["Forward"],
-        "total_passes": 72,
-        "assists": 2,
-        "games_together": 69
-      },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 7,
-        "assists": 3,
-        "games_together": 21
-      },
-      "Max Christie": {
-        "positions": ["Guard"],
-        "total_passes": 20,
-        "assists": 1,
-        "games_together": 68
-      }
+  "name": "Cam Reddish",
+  "positions": ["Forward"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Quincy Olivari": {
+      "positions": ["Guard"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 4
     },
-    "defensive_stats": {
-      "games": 31,
-      "steals": 31,
-      "blocks": 10
+    "Armel Traoré": {
+      "positions": ["Forward"],
+      "total_passes": 3,
+      "assists": 0,
+      "minutes_together": 21
+    },
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 5,
+      "assists": 0,
+      "minutes_together": 29
+    },
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 16,
+      "assists": 3,
+      "minutes_together": 225
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 7,
+      "assists": 3,
+      "minutes_together": 96
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 20,
+      "assists": 1,
+      "minutes_together": 161
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 71,
+      "assists": 4,
+      "minutes_together": 335
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 7,
+      "assists": 1,
+      "minutes_together": 73
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 17,
+      "assists": 1,
+      "minutes_together": 159
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 12,
+      "assists": 3,
+      "minutes_together": 240
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 8,
+      "assists": 0,
+      "minutes_together": 40
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 32
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 72,
+      "assists": 2,
+      "minutes_together": 326
     }
+  },
+  "defensive_stats": {
+    "games": 32,
+    "rebounds": 62,
+    "steals": 31,
+    "blocks": 10
+  }
 },
 
 {
-    "name": "Jarred Vanderbilt",
-    "positions": ["Forward"],
-    "team": "Los Angeles Lakers",
-    "passes_to": {
-      "Bronny James": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 5
-      },
-      "Dalton Knecht": {
-        "positions": ["Guard"],
-        "total_passes": 6,
-        "assists": 0,
-        "games_together": 15
-      },
-      "Trey Jemison III": {
-        "positions": ["Center"],
-        "total_passes": 8,
-        "assists": 2,
-        "games_together": 11
-      },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 1,
-        "assists": 1,
-        "games_together": 5
-      },
-      "Jordan Goodwin": {
-        "positions": ["Guard"],
-        "total_passes": 12,
-        "assists": 0,
-        "games_together": 8
-      },
-      "Austin Reaves": {
-        "positions": ["Guard"],
-        "total_passes": 74,
-        "assists": 3,
-        "games_together": 88
-      },
-      "Jaxson Hayes": {
-        "positions": ["Center", "Forward"],
-        "total_passes": 4,
-        "assists": 0,
-        "games_together": 39
-      },
-      "Gabe Vincent": {
-        "positions": ["Guard"],
-        "total_passes": 27,
-        "assists": 3,
-        "games_together": 16
-      },
-      "Rui Hachimura": {
-        "positions": ["Forward"],
-        "total_passes": 4,
-        "assists": 0,
-        "games_together": 76
-      },
-      "Luka Dončić": {
-        "positions": ["Guard", "Forward"],
-        "total_passes": 39,
-        "assists": 2,
-        "games_together": 11
-      },
-      "Shake Milton": {
-        "positions": ["Guard"],
-        "total_passes": 13,
-        "assists": 0,
-        "games_together": 10
-      },
-      "Dorian Finney-Smith": {
-        "positions": ["Forward"],
-        "total_passes": 14,
-        "assists": 3,
-        "games_together": 16
-      },
-      "LeBron James": {
-        "positions": ["Forward"],
-        "total_passes": 48,
-        "assists": 4,
-        "games_together": 69
-      }
+  "name": "Jarred Vanderbilt",
+  "positions": ["Forward"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 19,
+      "assists": 6,
+      "minutes_together": 214
     },
-    "defensive_stats": {
-      "games": 18,
-      "steals": 19,
-      "blocks": 6
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 48,
+      "assists": 4,
+      "minutes_together": 150
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 76
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 31,
+      "assists": 4,
+      "minutes_together": 156
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 16,
+      "assists": 3,
+      "minutes_together": 150
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 53,
+      "assists": 2,
+      "minutes_together": 149
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 70
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 1,
+      "assists": 1,
+      "minutes_together": 12
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 18,
+      "assists": 1,
+      "minutes_together": 63
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 25,
+      "assists": 0,
+      "minutes_together": 105
     }
+  },
+  "defensive_stats": {
+    "games": 21,
+    "rebounds": 116,
+    "steals": 23,
+    "blocks": 6
+  }
 },
 
 {
-    "name": "Dalton Knecht",
-    "positions": ["Guard"],
-    "team": "Los Angeles Lakers",
-    "passes_to": {
-      "Bronny James": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 5
-      },
-      "Trey Jemison III": {
-        "positions": ["Center"],
-        "total_passes": 8,
-        "assists": 2,
-        "games_together": 11
-      },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 1,
-        "assists": 1,
-        "games_together": 5
-      },
-      "Jordan Goodwin": {
-        "positions": ["Guard"],
-        "total_passes": 12,
-        "assists": 0,
-        "games_together": 8
-      },
-      "Austin Reaves": {
-        "positions": ["Guard"],
-        "total_passes": 74,
-        "assists": 3,
-        "games_together": 88
-      },
-      "Jaxson Hayes": {
-        "positions": ["Center", "Forward"],
-        "total_passes": 4,
-        "assists": 0,
-        "games_together": 39
-      },
-      "Gabe Vincent": {
-        "positions": ["Guard"],
-        "total_passes": 27,
-        "assists": 3,
-        "games_together": 16
-      },
-      "Rui Hachimura": {
-        "positions": ["Forward"],
-        "total_passes": 4,
-        "assists": 0,
-        "games_together": 76
-      },
-      "Luka Dončić": {
-        "positions": ["Guard", "Forward"],
-        "total_passes": 39,
-        "assists": 2,
-        "games_together": 11
-      },
-      "Shake Milton": {
-        "positions": ["Guard"],
-        "total_passes": 13,
-        "assists": 0,
-        "games_together": 10
-      },
-      "Dorian Finney-Smith": {
-        "positions": ["Forward"],
-        "total_passes": 14,
-        "assists": 3,
-        "games_together": 16
-      },
-      "LeBron James": {
-        "positions": ["Forward"],
-        "total_passes": 48,
-        "assists": 4,
-        "games_together": 69
-      }
+  "name": "Dalton Knecht",
+  "positions": ["Guard"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 16,
+      "assists": 1,
+      "minutes_together": 56
     },
-    "defensive_stats": {
-      "games": 15,
-      "steals": 0,
-      "blocks": 0
+    "Trey Jemison III": {
+      "positions": ["Center"],
+      "total_passes": 12,
+      "assists": 0,
+      "minutes_together": 125
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 20,
+      "assists": 1,
+      "minutes_together": 167
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 37,
+      "assists": 1,
+      "minutes_together": 368
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 13,
+      "assists": 1,
+      "minutes_together": 106
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 239,
+      "assists": 10,
+      "minutes_together": 625
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 23,
+      "assists": 3,
+      "minutes_together": 272
+    },
+    "Cam Reddish": {
+      "positions": ["Forward"],
+      "total_passes": 17,
+      "assists": 0,
+      "minutes_together": 225
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 98,
+      "assists": 1,
+      "minutes_together": 433
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 60,
+      "assists": 6,
+      "minutes_together": 451
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 39,
+      "assists": 2,
+      "minutes_together": 119
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 11,
+      "assists": 1,
+      "minutes_together": 151
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 33,
+      "assists": 1,
+      "minutes_together": 152
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 14,
+      "assists": 3,
+      "minutes_together": 170
+    },
+    "Alex Len": {
+      "positions": ["Center"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 40
+    },
+    "Markieff Morris": {
+      "positions": ["Forward"],
+      "total_passes": 3,
+      "assists": 0,
+      "minutes_together": 21
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 251,
+      "assists": 6,
+      "minutes_together": 727
     }
+  },
+  "defensive_stats": {
+    "games": 62,
+    "rebounds": 185,
+    "steals": 22,
+    "blocks": 5
+  }
 },
 
 {
-    "name": "Gabe Vincent",
-    "positions": ["Guard"],
-    "team": "Los Angeles Lakers",
-    "passes_to": {
-      "Bronny James": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 14
-      },
-      "Dalton Knecht": {
-        "positions": ["Guard"],
-        "total_passes": 27,
-        "assists": 3,
-        "games_together": 52
-      },
-      "Trey Jemison III": {
-        "positions": ["Center"],
-        "total_passes": 7,
-        "assists": 2,
-        "games_together": 14
-      },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 22,
-        "assists": 2,
-        "games_together": 25
-      },
-      "Jordan Goodwin": {
-        "positions": ["Guard"],
-        "total_passes": 18,
-        "assists": 1,
-        "games_together": 9
-      },
-      "Austin Reaves": {
-        "positions": ["Guard"],
-        "total_passes": 172,
-        "assists": 9,
-        "games_together": 65
-      },
-      "Jaxson Hayes": {
-        "positions": ["Center", "Forward"],
-        "total_passes": 56,
-        "assists": 7,
-        "games_together": 48
-      },
-      "Cam Reddish": {
-        "positions": ["Forward"],
-        "total_passes": 12,
-        "assists": 1,
-        "games_together": 33
-      },
-      "Rui Hachimura": {
-        "positions": ["Forward"],
-        "total_passes": 70,
-        "assists": 5,
-        "games_together": 59
-      },
-      "Luka Dončić": {
-        "positions": ["Guard", "Forward"],
-        "total_passes": 84,
-        "assists": 7,
-        "games_together": 11
-      },
-      "Shake Milton": {
-        "positions": ["Guard"],
-        "total_passes": 5,
-        "assists": 1,
-        "games_together": 12
-      },
-      "Dorian Finney-Smith": {
-        "positions": ["Forward"],
-        "total_passes": 42,
-        "assists": 7,
-        "games_together": 21
-      },
-      "LeBron James": {
-        "positions": ["Forward"],
-        "total_passes": 272,
-        "assists": 5,
-        "games_together": 67
-      }
+  "name": "Gabe Vincent",
+  "positions": ["Guard"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 10
     },
-    "defensive_stats": {
-      "games": 55,
-      "steals": 40,
-      "blocks": 12
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 84,
+      "assists": 13,
+      "minutes_together": 433
+    },
+    "Trey Jemison III": {
+      "positions": ["Center"],
+      "total_passes": 7,
+      "assists": 2,
+      "minutes_together": 70
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 22,
+      "assists": 2,
+      "minutes_together": 131
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 18,
+      "assists": 1,
+      "minutes_together": 93
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 180,
+      "assists": 10,
+      "minutes_together": 490
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 56,
+      "assists": 7,
+      "minutes_together": 338
+    },
+    "Cam Reddish": {
+      "positions": ["Forward"],
+      "total_passes": 12,
+      "assists": 1,
+      "minutes_together": 159
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 70,
+      "assists": 5,
+      "minutes_together": 478
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 89,
+      "assists": 7,
+      "minutes_together": 199
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 11,
+      "assists": 1,
+      "minutes_together": 156
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 5,
+      "assists": 1,
+      "minutes_together": 28
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 43,
+      "assists": 7,
+      "minutes_together": 313
+    },
+    "Alex Len": {
+      "positions": ["Center"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 33
+    },
+    "Markieff Morris": {
+      "positions": ["Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 11
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 272,
+      "assists": 5,
+      "minutes_together": 668
     }
+  },
+  "defensive_stats": {
+    "games": 56,
+    "rebounds": 66,
+    "steals": 40,
+    "blocks": 12
+  }
 },
 
 {
-    "name": "Bronny James",
-    "positions": ["Guard"],
-    "team": "Los Angeles Lakers",
-    "passes_to": {
-      "Dalton Knecht": {
-        "positions": ["Guard"],
-        "total_passes": 17,
-        "assists": 4,
-        "games_together": 18
-      },
-      "Trey Jemison III": {
-        "positions": ["Center"],
-        "total_passes": 4,
-        "assists": 1,
-        "games_together": 5
-      },
-      "Christian Koloko": {
-        "positions": ["Center"],
-        "total_passes": 6,
-        "assists": 1,
-        "games_together": 9
-      },
-      "Jordan Goodwin": {
-        "positions": ["Guard"],
-        "total_passes": 4,
-        "assists": 1,
-        "games_together": 1
-      },
-      "Austin Reaves": {
-        "positions": ["Guard"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 16
-      },
-      "Jaxson Hayes": {
-        "positions": ["Center", "Forward"],
-        "total_passes": 2,
-        "assists": 1,
-        "games_together": 17
-      },
-      "Cam Reddish": {
-        "positions": ["Forward"],
-        "total_passes": 7,
-        "assists": 0,
-        "games_together": 8
-      },
-      "Gabe Vincent": {
-        "positions": ["Guard"],
-        "total_passes": 4,
-        "assists": 0,
-        "games_together": 14
-      },
-      "Rui Hachimura": {
-        "positions": ["Forward"],
-        "total_passes": 1,
-        "assists": 0,
-        "games_together": 16
-      },
-      "Shake Milton": {
-        "positions": ["Guard"],
-        "total_passes": 19,
-        "assists": 0,
-        "games_together": 7
-      },
-      "Dorian Finney-Smith": {
-        "positions": ["Forward"],
-        "total_passes": 2,
-        "assists": 0,
-        "games_together": 9
-      },
-      "LeBron James": {
-        "positions": ["Forward"],
-        "total_passes": 8,
-        "assists": 0,
-        "games_together": 17
-      }
+  "name": "Bronny James",
+  "positions": ["Guard"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Quincy Olivari": {
+      "positions": ["Guard"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 3
     },
-    "defensive_stats": {
-      "games": 18,
-      "steals": 4,
-      "blocks": 2
+    "Armel Traoré": {
+      "positions": ["Forward"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 8
+    },
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 20,
+      "assists": 4,
+      "minutes_together": 56
+    },
+    "Trey Jemison III": {
+      "positions": ["Center"],
+      "total_passes": 4,
+      "assists": 1,
+      "minutes_together": 19
+    },
+    "Maxwell Lewis": {
+      "positions": ["Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 6
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 8,
+      "assists": 1,
+      "minutes_together": 42
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 13,
+      "assists": 0,
+      "minutes_together": 26
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 5,
+      "assists": 1,
+      "minutes_together": 14
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 8,
+      "assists": 0,
+      "minutes_together": 15
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 2,
+      "assists": 1,
+      "minutes_together": 21
+    },
+    "Cam Reddish": {
+      "positions": ["Forward"],
+      "total_passes": 7,
+      "assists": 0,
+      "minutes_together": 29
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 10
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 7
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 23,
+      "assists": 0,
+      "minutes_together": 56
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 7
+    },
+    "Alex Len": {
+      "positions": ["Center"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 15
+    },
+    "Markieff Morris": {
+      "positions": ["Forward"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 17
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 8,
+      "assists": 0,
+      "minutes_together": 10
     }
+  },
+  "defensive_stats": {
+    "games": 56,
+    "rebounds": 66,
+    "steals": 40,
+    "blocks": 12
+  }
 },
 
 {
@@ -514,73 +604,1171 @@
   "positions": ["Center"],
   "team": "Los Angeles Lakers",
   "passes_to": {
-    "Dalton Knecht": {
+    "Quincy Olivari": {
       "positions": ["Guard"],
-      "total_passes": 22,
-      "assists": 5,
-      "games_together": 28
-    },
-    "LeBron James": {
-      "positions": ["Forward"],
-      "total_passes": 63,
-      "assists": 1,
-      "games_together": 26
-    },
-    "Rui Hachimura": {
-      "positions": ["Forward"],
       "total_passes": 1,
       "assists": 0,
-      "games_together": 23
+      "minutes_together": 6
     },
-    "Austin Reaves": {
-      "positions": ["Guard"],
-      "total_passes": 32,
-      "assists": 2,
-      "games_together": 25
-    },
-    "Gabe Vincent": {
-      "positions": ["Guard"],
-      "total_passes": 32,
-      "assists": 0,
-      "games_together": 25
-    },
-    "Dorian Finney-Smith": {
+    "Armel Traoré": {
       "positions": ["Forward"],
       "total_passes": 2,
       "assists": 0,
-      "games_together": 7
+      "minutes_together": 29
+    },
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 14,
+      "assists": 0,
+      "minutes_together": 42
+    },
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 26,
+      "assists": 6,
+      "minutes_together": 167
+    },
+    "Maxwell Lewis": {
+      "positions": ["Forward"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 28
+    },
+    "Jalen Hood-Schifino": {
+      "positions": ["Guard"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 1
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 22,
+      "assists": 1,
+      "minutes_together": 94
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 8,
+      "assists": 1,
+      "minutes_together": 28
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 45,
+      "assists": 3,
+      "minutes_together": 90
     },
     "Cam Reddish": {
       "positions": ["Forward"],
       "total_passes": 20,
       "assists": 0,
-      "games_together": 21
+      "minutes_together": 96
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 32,
+      "assists": 0,
+      "minutes_together": 131
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 53
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 12
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 3,
+      "assists": 0,
+      "minutes_together": 12
     },
     "Shake Milton": {
       "positions": ["Guard"],
-      "total_passes": 9,
+      "total_passes": 14,
       "assists": 1,
-      "games_together": 6
+      "minutes_together": 53
     },
-    "Jaxson Hayes": {
-      "positions": ["Center", "Forward"],
-      "total_passes": 0,
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 2,
       "assists": 0,
-      "games_together": 12
+      "minutes_together": 23
     },
-    "Bronny James": {
-      "positions": ["Guard"],
-      "total_passes": 12,
-      "assists": 0,
-      "games_together": 9
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 63,
+      "assists": 1,
+      "minutes_together": 131
     }
   },
   "defensive_stats": {
-    "games": 29,
+    "games": 31,
+    "rebounds": 71,
     "steals": 7,
-    "blocks": 8
+    "blocks": 11
   }
 },
 
-}
-  ]
+{
+  "name": "Jaxson Hayes",
+  "positions": ["Center", "Forward"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Quincy Olivari": {
+      "positions": ["Guard"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 2
+    },
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 5,
+      "assists": 0,
+      "minutes_together": 21
+    },
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 32,
+      "assists": 6,
+      "minutes_together": 272
+    },
+    "Trey Jemison III": {
+      "positions": ["Center"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 3
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 18,
+      "assists": 1,
+      "minutes_together": 181
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 4,
+      "assists": 0,
+      "minutes_together": 42
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 187,
+      "assists": 8,
+      "minutes_together": 457
+    },
+    "Cam Reddish": {
+      "positions": ["Forward"],
+      "total_passes": 7,
+      "assists": 0,
+      "minutes_together": 73
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 69,
+      "assists": 6,
+      "minutes_together": 338
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 14,
+      "assists": 4,
+      "minutes_together": 311
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 68,
+      "assists": 1,
+      "minutes_together": 175
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 3,
+      "assists": 0,
+      "minutes_together": 70
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 10,
+      "assists": 0,
+      "minutes_together": 53
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 29,
+      "assists": 2,
+      "minutes_together": 284
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 227,
+      "assists": 12,
+      "minutes_together": 594
+    }
+  },
+  "defensive_stats": {
+    "games": 40,
+    "rebounds": 182,
+    "steals": 22,
+    "blocks": 41
+  }
+},
+
+{
+  "name": "Austin Reaves",
+  "positions": ["Guard"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 2,
+      "assists": 1,
+      "minutes_together": 15
+    },
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 212,
+      "assists": 37,
+      "minutes_together": 625
+    },
+    "Trey Jemison III": {
+      "positions": ["Center"],
+      "total_passes": 9,
+      "assists": 3,
+      "minutes_together": 50
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 36,
+      "assists": 5,
+      "minutes_together": 90
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 225,
+      "assists": 26,
+      "minutes_together": 767
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 38,
+      "assists": 3,
+      "minutes_together": 119
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 97,
+      "assists": 15,
+      "minutes_together": 457
+    },
+    "Cam Reddish": {
+      "positions": ["Forward"],
+      "total_passes": 64,
+      "assists": 5,
+      "minutes_together": 335
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 157,
+      "assists": 14,
+      "minutes_together": 490
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 275,
+      "assists": 48,
+      "minutes_together": 1165
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 141,
+      "assists": 8,
+      "minutes_together": 268
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 51,
+      "assists": 4,
+      "minutes_together": 214
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 36,
+      "assists": 3,
+      "minutes_together": 75
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 123,
+      "assists": 12,
+      "minutes_together": 513
+    },
+    "Alex Len": {
+      "positions": ["Center"],
+      "total_passes": 13,
+      "assists": 1,
+      "minutes_together": 54
+    },
+    "Markieff Morris": {
+      "positions": ["Forward"],
+      "total_passes": 15,
+      "assists": 0,
+      "minutes_together": 32
+    },
+    "LeBron James": {
+      "positions": ["Forward"],
+      "total_passes": 934,
+      "assists": 76,
+      "minutes_together": 1328
+    }
+  },
+  "defensive_stats": {
+    "games": 58,
+    "rebounds": 258,
+    "steals": 65,
+    "blocks": 16
+  }
+},
+
+{
+    "name": "Dorian Finney-Smith",
+    "positions": ["Forward"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Bronny James": {
+        "positions": ["Guard"],
+        "total_passes": 4,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Dalton Knecht": {
+        "positions": ["Guard"],
+        "total_passes": 14,
+        "assists": 2,
+        "minutes_together": 1
+      },
+      "Trey Jemison III": {
+        "positions": ["Center"],
+        "total_passes": 4,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Christian Koloko": {
+        "positions": ["Center"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 27,
+        "assists": 1,
+        "minutes_together": 2
+      },
+      "Jordan Goodwin": {
+        "positions": ["Guard"],
+        "total_passes": 10,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 159,
+        "assists": 3,
+        "minutes_together": 13
+      },
+      "Jaxson Hayes": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 16,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Cam Reddish": {
+        "positions": ["Forward"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 57,
+        "assists": 3,
+        "minutes_together": 5
+      },
+      "Rui Hachimura": {
+        "positions": ["Forward"],
+        "total_passes": 26,
+        "assists": 4,
+        "minutes_together": 2
+      },
+      "Luka Dončić": {
+        "positions": ["Guard", "Forward"],
+        "total_passes": 89,
+        "assists": 4,
+        "minutes_together": 7
+      },
+      "Jarred Vanderbilt": {
+        "positions": ["Forward"],
+        "total_passes": 5,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Shake Milton": {
+        "positions": ["Guard"],
+        "total_passes": 28,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Alex Len": {
+        "positions": ["Center"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Markieff Morris": {
+        "positions": ["Forward"],
+        "total_passes": 1,
+        "assists": 1,
+        "minutes_together": 0
+      },
+      "LeBron James": {
+        "positions": ["Forward"],
+        "total_passes": 158,
+        "assists": 8,
+        "minutes_together": 13
+      }
+    },
+    "defensive_stats": {
+      "games": 28,
+      "rebounds": 99,
+      "steals": 26,
+      "blocks": 3
+    }
+  },
+
+{
+    "name": "Shake Milton",
+    "positions": ["Guard"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Bronny James": {
+        "positions": ["Guard"],
+        "total_passes": 24,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Dalton Knecht": {
+        "positions": ["Guard"],
+        "total_passes": 39,
+        "assists": 8,
+        "minutes_together": 4
+      },
+      "Trey Jemison III": {
+        "positions": ["Center"],
+        "total_passes": 16,
+        "assists": 1,
+        "minutes_together": 2
+      },
+      "Christian Koloko": {
+        "positions": ["Center"],
+        "total_passes": 20,
+        "assists": 3,
+        "minutes_together": 2
+      },
+      "Jordan Goodwin": {
+        "positions": ["Guard"],
+        "total_passes": 22,
+        "assists": 3,
+        "minutes_together": 2
+      },
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 29,
+        "assists": 2,
+        "minutes_together": 3
+      },
+      "Jaxson Hayes": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 7,
+        "assists": 0,
+        "minutes_together": 1
+      },
+      "Cam Reddish": {
+        "positions": ["Forward"],
+        "total_passes": 6,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 7,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Rui Hachimura": {
+        "positions": ["Forward"],
+        "total_passes": 11,
+        "assists": 2,
+        "minutes_together": 1
+      },
+      "Luka Dončić": {
+        "positions": ["Guard", "Forward"],
+        "total_passes": 10,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Jarred Vanderbilt": {
+        "positions": ["Forward"],
+        "total_passes": 9,
+        "assists": 0,
+        "minutes_together": 1
+      },
+      "Dorian Finney-Smith": {
+        "positions": ["Forward"],
+        "total_passes": 14,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Alex Len": {
+        "positions": ["Center"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Markieff Morris": {
+        "positions": ["Forward"],
+        "total_passes": 14,
+        "assists": 0,
+        "minutes_together": 1
+      },
+      "LeBron James": {
+        "positions": ["Forward"],
+        "total_passes": 61,
+        "assists": 4,
+        "minutes_together": 6
+      }
+    },
+    "defensive_stats": {
+      "games": 22,
+      "rebounds": 41,
+      "steals": 7,
+      "blocks": 2
+    }
+  },
+
+{
+  "name": "LeBron James",
+  "positions": ["Forward"],
+  "team": "Los Angeles Lakers",
+  "passes_to": {
+    "Armel Traoré": {
+      "positions": ["Forward"],
+      "total_passes": 7,
+      "assists": 1,
+      "minutes_together": 18
+    },
+    "Bronny James": {
+      "positions": ["Guard"],
+      "total_passes": 8,
+      "assists": 0,
+      "minutes_together": 10
+    },
+    "Dalton Knecht": {
+      "positions": ["Guard"],
+      "total_passes": 227,
+      "assists": 37,
+      "minutes_together": 727
+    },
+    "Trey Jemison III": {
+      "positions": ["Center"],
+      "total_passes": 11,
+      "assists": 2,
+      "minutes_together": 68
+    },
+    "Jalen Hood-Schifino": {
+      "positions": ["Guard"],
+      "total_passes": 1,
+      "assists": 0,
+      "minutes_together": 4
+    },
+    "Christian Koloko": {
+      "positions": ["Center"],
+      "total_passes": 33,
+      "assists": 5,
+      "minutes_together": 131
+    },
+    "Max Christie": {
+      "positions": ["Guard"],
+      "total_passes": 213,
+      "assists": 32,
+      "minutes_together": 652
+    },
+    "Jordan Goodwin": {
+      "positions": ["Guard"],
+      "total_passes": 32,
+      "assists": 2,
+      "minutes_together": 71
+    },
+    "Austin Reaves": {
+      "positions": ["Guard"],
+      "total_passes": 882,
+      "assists": 78,
+      "minutes_together": 1328
+    },
+    "Jaxson Hayes": {
+      "positions": ["Center", "Forward"],
+      "total_passes": 152,
+      "assists": 43,
+      "minutes_together": 594
+    },
+    "Cam Reddish": {
+      "positions": ["Forward"],
+      "total_passes": 56,
+      "assists": 9,
+      "minutes_together": 326
+    },
+    "Gabe Vincent": {
+      "positions": ["Guard"],
+      "total_passes": 248,
+      "assists": 29,
+      "minutes_together": 668
+    },
+    "Rui Hachimura": {
+      "positions": ["Forward"],
+      "total_passes": 366,
+      "assists": 91,
+      "minutes_together": 1077
+    },
+    "Luka Dončić": {
+      "positions": ["Guard", "Forward"],
+      "total_passes": 135,
+      "assists": 8,
+      "minutes_together": 260
+    },
+    "Jarred Vanderbilt": {
+      "positions": ["Forward"],
+      "total_passes": 28,
+      "assists": 5,
+      "minutes_together": 150
+    },
+    "Shake Milton": {
+      "positions": ["Guard"],
+      "total_passes": 47,
+      "assists": 4,
+      "minutes_together": 103
+    },
+    "Dorian Finney-Smith": {
+      "positions": ["Forward"],
+      "total_passes": 128,
+      "assists": 16,
+      "minutes_together": 516
+    },
+    "Alex Len": {
+      "positions": ["Center"],
+      "total_passes": 2,
+      "assists": 0,
+      "minutes_together": 20
+    }
+  },
+  "defensive_stats": {
+    "games": 58,
+    "rebounds": 476,
+    "steals": 52,
+    "blocks": 35
+  }
+},
+
+{
+    "name": "Rui Hachimura",
+    "positions": ["Forward"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 20,
+        "assists": 2,
+        "minutes_together": 1165
+      },
+      "LeBron James": {
+        "positions": ["Forward"],
+        "total_passes": 43,
+        "assists": 0,
+        "minutes_together": 1077
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 27,
+        "assists": 4,
+        "minutes_together": 652
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 20,
+        "assists": 2,
+        "minutes_together": 478
+      },
+      "Dorian Finney-Smith": {
+        "positions": ["Forward"],
+        "total_passes": 27,
+        "assists": 4,
+        "minutes_together": 287
+      },
+      "Jaxson Hayes": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 13,
+        "assists": 2,
+        "minutes_together": 311
+      },
+      "Cam Reddish": {
+        "positions": ["Forward"],
+        "total_passes": 20,
+        "assists": 2,
+        "minutes_together": 240
+      },
+      "D'Angelo Russell": {
+        "positions": ["Guard"],
+        "total_passes": 27,
+        "assists": 4,
+        "minutes_together": 413
+      },
+      "Jarred Vanderbilt": {
+        "positions": ["Forward"],
+        "total_passes": 3,
+        "assists": 0,
+        "minutes_together": 76
+      },
+      "Christian Koloko": {
+        "positions": ["Center"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 53
+      },
+      "Shake Milton": {
+        "positions": ["Guard"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 61
+      },
+      "Jordan Goodwin": {
+        "positions": ["Guard"],
+        "total_passes": 12,
+        "assists": 1,
+        "minutes_together": 55
+      },
+      "Luka Dončić": {
+        "positions": ["Guard", "Forward"],
+        "total_passes": 3,
+        "assists": 0,
+        "minutes_together": 136
+      },
+      "Trey Jemison III": {
+        "positions": ["Center"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 24
+      },
+      "Alex Len": {
+        "positions": ["Center"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 13
+      },
+      "Markieff Morris": {
+        "positions": ["Forward"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 5
+      },
+      "Bronny James": {
+        "positions": ["Guard"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 1
+      }
+    },
+    "defensive_stats": {
+      "games": 50,
+      "rebounds": 261,
+      "steals": 40,
+      "blocks": 24
+    }
+  },
+
+{
+    "name": "Jordan Goodwin",
+    "positions": ["Guard"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Bronny James": {
+        "positions": ["Guard"],
+        "total_passes": 8,
+        "assists": 1,
+        "minutes_together": 2
+      },
+      "Dalton Knecht": {
+        "positions": ["Guard"],
+        "total_passes": 26,
+        "assists": 1,
+        "minutes_together": 4
+      },
+      "Trey Jemison III": {
+        "positions": ["Center"],
+        "total_passes": 8,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Christian Koloko": {
+        "positions": ["Center"],
+        "total_passes": 3,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 76,
+        "assists": 2,
+        "minutes_together": 3
+      },
+      "Jaxson Hayes": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 8,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 39,
+        "assists": 0,
+        "minutes_together": 3
+      },
+      "Rui Hachimura": {
+        "positions": ["Forward"],
+        "total_passes": 7,
+        "assists": 0,
+        "minutes_together": 3
+      },
+      "Luka Dončić": {
+        "positions": ["Guard", "Forward"],
+        "total_passes": 21,
+        "assists": 3,
+        "minutes_together": 4
+      },
+      "Jarred Vanderbilt": {
+        "positions": ["Forward"],
+        "total_passes": 12,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Shake Milton": {
+        "positions": ["Guard"],
+        "total_passes": 20,
+        "assists": 0,
+        "minutes_together": 3
+      },
+      "Dorian Finney-Smith": {
+        "positions": ["Forward"],
+        "total_passes": 5,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Alex Len": {
+        "positions": ["Center"],
+        "total_passes": 4,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Markieff Morris": {
+        "positions": ["Forward"],
+        "total_passes": 13,
+        "assists": 3,
+        "minutes_together": 2
+      },
+      "LeBron James": {
+        "positions": ["Forward"],
+        "total_passes": 47,
+        "assists": 3,
+        "minutes_together": 4
+      }
+    },
+    "defensive_stats": {
+      "games": 12,
+      "rebounds": 51,
+      "steals": 13,
+      "blocks": 4
+    }
+  },
+
+{
+    "name": "Trey Jemison III",
+    "positions": ["Center"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Bronny James": {
+        "positions": ["Guard"],
+        "total_passes": 5,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Dalton Knecht": {
+        "positions": ["Guard"],
+        "total_passes": 13,
+        "assists": 1,
+        "minutes_together": 4
+      },
+      "Max Christie": {
+        "positions": ["Guard"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Jordan Goodwin": {
+        "positions": ["Guard"],
+        "total_passes": 9,
+        "assists": 0,
+        "minutes_together": 3
+      },
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 19,
+        "assists": 1,
+        "minutes_together": 6
+      },
+      "Jaxson Hayes": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 1,
+        "assists": 0,
+        "minutes_together": 0
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 13,
+        "assists": 0,
+        "minutes_together": 4
+      },
+      "Rui Hachimura": {
+        "positions": ["Forward"],
+        "total_passes": 2,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Luka Dončić": {
+        "positions": ["Guard", "Forward"],
+        "total_passes": 27,
+        "assists": 0,
+        "minutes_together": 8
+      },
+      "Jarred Vanderbilt": {
+        "positions": ["Forward"],
+        "total_passes": 7,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Shake Milton": {
+        "positions": ["Guard"],
+        "total_passes": 19,
+        "assists": 1,
+        "minutes_together": 6
+      },
+      "Dorian Finney-Smith": {
+        "positions": ["Forward"],
+        "total_passes": 7,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "LeBron James": {
+        "positions": ["Forward"],
+        "total_passes": 24,
+        "assists": 0,
+        "minutes_together": 7
+      }
+    },
+    "defensive_stats": {
+      "games": 15,
+      "rebounds": 43,
+      "steals": 1,
+      "blocks": 8
+    }
+  },
+
+{
+    "name": "Luka Dončić",
+    "positions": ["Guard", "Forward"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Dalton Knecht": {
+        "positions": ["Guard"],
+        "total_passes": 31,
+        "assists": 5,
+        "minutes_together": 2
+      },
+      "Trey Jemison III": {
+        "positions": ["Center"],
+        "total_passes": 22,
+        "assists": 5,
+        "minutes_together": 1
+      },
+      "Christian Koloko": {
+        "positions": ["Center"],
+        "total_passes": 5,
+        "assists": 1,
+        "minutes_together": 0
+      },
+      "Jordan Goodwin": {
+        "positions": ["Guard"],
+        "total_passes": 15,
+        "assists": 3,
+        "minutes_together": 1
+      },
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 118,
+        "assists": 6,
+        "minutes_together": 7
+      },
+      "Jaxson Hayes": {
+        "positions": ["Center", "Forward"],
+        "total_passes": 48,
+        "assists": 14,
+        "minutes_together": 3
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 63,
+        "assists": 7,
+        "minutes_together": 4
+      },
+      "Rui Hachimura": {
+        "positions": ["Forward"],
+        "total_passes": 41,
+        "assists": 7,
+        "minutes_together": 2
+      },
+      "Jarred Vanderbilt": {
+        "positions": ["Forward"],
+        "total_passes": 43,
+        "assists": 12,
+        "minutes_together": 3
+      },
+      "Shake Milton": {
+        "positions": ["Guard"],
+        "total_passes": 9,
+        "assists": 2,
+        "minutes_together": 1
+      },
+      "Dorian Finney-Smith": {
+        "positions": ["Forward"],
+        "total_passes": 62,
+        "assists": 5,
+        "minutes_together": 4
+      },
+      "Alex Len": {
+        "positions": ["Center"],
+        "total_passes": 9,
+        "assists": 0,
+        "minutes_together": 1
+      },
+      "Markieff Morris": {
+        "positions": ["Forward"],
+        "total_passes": 3,
+        "assists": 1,
+        "minutes_together": 0
+      },
+      "LeBron James": {
+        "positions": ["Forward"],
+        "total_passes": 163,
+        "assists": 28,
+        "minutes_together": 10
+      }
+    },
+    "defensive_stats": {
+      "games": 13,
+      "rebounds": 112,
+      "steals": 24,
+      "blocks": 6
+    }
+  },
+
+{
+    "name": "Markieff Morris",
+    "positions": ["Forward"],
+    "team": "Los Angeles Lakers",
+    "passes_to": {
+      "Bronny James": {
+        "positions": ["Guard"],
+        "total_passes": 5,
+        "assists": 0,
+        "minutes_together": 6
+      },
+      "Dalton Knecht": {
+        "positions": ["Guard"],
+        "total_passes": 4,
+        "assists": 0,
+        "minutes_together": 4
+      },
+      "Trey Jemison III": {
+        "positions": ["Center"],
+        "total_passes": 1,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Christian Koloko": {
+        "positions": ["Center"],
+        "total_passes": 1,
+        "assists": 1,
+        "minutes_together": 1
+      },
+      "Jordan Goodwin": {
+        "positions": ["Guard"],
+        "total_passes": 4,
+        "assists": 1,
+        "minutes_together": 4
+      },
+      "Austin Reaves": {
+        "positions": ["Guard"],
+        "total_passes": 17,
+        "assists": 3,
+        "minutes_together": 19
+      },
+      "Gabe Vincent": {
+        "positions": ["Guard"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Rui Hachimura": {
+        "positions": ["Forward"],
+        "total_passes": 2,
+        "assists": 0,
+        "minutes_together": 2
+      },
+      "Luka Dončić": {
+        "positions": ["Guard", "Forward"],
+        "total_passes": 3,
+        "assists": 1,
+        "minutes_together": 3
+      },
+      "Shake Milton": {
+        "positions": ["Guard"],
+        "total_passes": 10,
+        "assists": 0,
+        "minutes_together": 11
+      },
+      "Alex Len": {
+        "positions": ["Center"],
+        "total_passes": 2,
+        "assists": 1,
+        "minutes_together": 2
+      }
+    },
+    "defensive_stats": {
+      "games": 5,
+      "rebounds": 7,
+      "steals": 0,
+      "blocks": 0
+    }
+  }]
