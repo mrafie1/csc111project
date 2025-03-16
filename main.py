@@ -5,22 +5,33 @@ from typing import Optional
 
 from classes import Graph
 
+class LineupSimulation:
+    """A lineup simulation  storing the graph and all player info.
 
-class display_stats:
-    """
-    sjiodnowsnodw
-    """
+        Instance Attributes:
+            -
 
-    team_graph: Graph
-    best_team_graph: Graph
+        """
 
-    def __init__(self, data_file: str) -> None:
-        self.team_graph = self._load_game_data(data_file)
+    # Private Instance Attributes:
+    #   -
+
+    players = set
 
     @staticmethod
-    def _load_game_data(filename: str) -> Optional[Graph]:
-        with open(filename, 'r') as f:
-            data = json.load(f)
+    def _load_game_data(filename: str) -> Teamgraph:
+        """Load locations and items from a JSON file with the given filename and
+        return a Teamgraph object"""
 
-        # Adding players first
-        return None
+        with open(filename, 'r') as f:
+            data = json.load(f)  # This loads all the data from the JSON file
+
+        players = {}
+        graph = Teamgraph()
+        for player_data in data:  # Go through each element associated with the 'locations' key in the file
+
+            interactions = data['passes_to']
+
+
+            player_obj = _Player(data['name'], data['positions'], data['team'])
+        return graph
