@@ -89,7 +89,9 @@
       }
     },
     "defensive_stats": {
-      "games": 50,
+      "minutes": 1804,
+      "points": 1234,
+      "rebounds": 240,
       "steals": 66,
       "blocks": 23
     }
@@ -150,7 +152,9 @@
       }
     },
     "defensive_stats": {
-      "games": 1,
+      "minutes": 31,
+      "points": 26,
+      "rebounds": 16,
       "steals": 0,
       "blocks": 3
     }
@@ -247,7 +251,9 @@
       }
     },
     "defensive_stats": {
-      "games": 58,
+      "minutes": 1656,
+      "points": 859,
+      "rebounds": 216,
       "steals": 45,
       "blocks": 28
     }
@@ -344,7 +350,9 @@
       }
     },
     "defensive_stats": {
-      "games": 47,
+      "minutes": 1514,
+      "points": 657,
+      "rebounds": 380,
       "steals": 55,
       "blocks": 50
     }
@@ -441,7 +449,9 @@
       }
     },
     "defensive_stats": {
-      "games": 64,
+      "minutes": 1703,
+      "points": 692,
+      "rebounds": 159,
       "steals": 54,
       "blocks": 14
     }
@@ -538,7 +548,9 @@
       }
     },
     "defensive_stats": {
-      "games": 53,
+      "minutes": 1451,
+      "points": 688,
+      "rebounds": 253,
       "steals": 56,
       "blocks": 7
     }
@@ -629,7 +641,9 @@
     }
   },
   "defensive_stats": {
-    "games": 51,
+    "minutes": 1115,
+    "points": 627,
+    "rebounds": 380,
     "steals": 21,
     "blocks": 96
   }
@@ -714,7 +728,9 @@
     }
   },
   "defensive_stats": {
-    "games": 41,
+    "minutes": 400,
+    "points": 90,
+    "rebounds": 95,
     "steals": 12,
     "blocks": 20
   }
@@ -799,7 +815,9 @@
     }
   },
   "defensive_stats": {
-    "games": 16,
+    "minutes": 854,
+    "points": 208,
+    "rebounds": 73,
     "steals": 16,
     "blocks": 6
   }
@@ -890,7 +908,9 @@
     }
   },
   "defensive_stats": {
-    "games": 52,
+    "minutes": 584,
+    "points": 201,
+    "rebounds": 126,
     "steals": 26,
     "blocks": 6
   }
@@ -951,7 +971,9 @@
     }
   },
   "defensive_stats": {
-    "games": 32,
+    "minutes": 768,
+    "points": 292,
+    "rebounds": 251,
     "steals": 17,
     "blocks": 54
   }
@@ -1042,7 +1064,9 @@
     }
   },
   "defensive_stats": {
-    "games": 16,
+    "minutes": 344,
+    "points": 164,
+    "rebounds": 30,
     "steals": 11,
     "blocks": 3
   }
@@ -1127,7 +1151,9 @@
     }
   },
   "defensive_stats": {
-    "games": 35,
+    "minutes": 542,
+    "points": 154,
+    "rebounds": 102,
     "steals": 16,
     "blocks": 15
   }
@@ -1215,16 +1241,12 @@
       "total_passes": 2,
       "assists": 0,
       "minutes_together": 14
-    },
-    "Jazian Gortman": {
-      "positions": ["Guard"],
-      "total_passes": 5,
-      "assists": 1,
-      "minutes_together": 13
     }
   },
   "defensive_stats": {
-    "games": 23,
+    "minutes": 23,
+    "points": 8,
+    "rebounds": 19,
     "steals": 11,
     "blocks": 2
   }
@@ -1315,7 +1337,9 @@
       }
     },
     "defensive_stats": {
-      "games": 46,
+      "minutes": 318,
+      "points": 177,
+      "rebounds": 38,
       "steals": 22,
       "blocks": 5
     }
