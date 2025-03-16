@@ -8,7 +8,7 @@ class _Player:
     """
     name: str
     team: str
-    position: str
+    position: list
     avg_points: float
     avg_rebounds: float
     avg_assists: float
@@ -20,7 +20,7 @@ class _Player:
 
     # Add further statistics attributes
 
-    def __init__(self, name: str, team: str, position: str, points: int, rebounds: int, assists: int, games: int, steals: int, blocks: int) -> None:
+    def __init__(self, name: str, team: str, position: list, points: int, rebounds: int, assists: int, games: int, steals: int, blocks: int) -> None:
         self.name = name
         self.team = team
         self.position = position

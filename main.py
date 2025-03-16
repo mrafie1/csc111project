@@ -3,7 +3,8 @@ from __future__ import annotations
 import json
 from typing import Optional
 
-from classes import Graph
+from classes import Graph, _Player, _Connection
+
 
 class LineupSimulation:
     """A lineup simulation  storing the graph and all player info.
@@ -19,7 +20,7 @@ class LineupSimulation:
     players = set
 
     @staticmethod
-    def _load_game_data(filename: str) -> Teamgraph:
+    def _load_game_data(filename: str) -> Graph:
         """Load locations and items from a JSON file with the given filename and
         return a Teamgraph object"""
 
@@ -27,7 +28,7 @@ class LineupSimulation:
             data = json.load(f)  # This loads all the data from the JSON file
 
         players = {}
-        graph = Teamgraph()
+        graph = Graph()
         for player_data in data:  # Go through each element associated with the 'locations' key in the file
 
             interactions = data['passes_to']
