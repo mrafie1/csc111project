@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import Any
+from typing import Any, Optional
 
 
 class _Player:
@@ -7,10 +7,12 @@ class _Player:
     Analogous to the _vertex class in a graph.
     """
     name: str
-    avg_points: int
-    avg_rebounds: int
-    avg_assists: int
-    player_impact_estimate: int
+    avg_points: float
+    avg_rebounds: float
+    avg_assists: float
+    player_impact_estimate: float
+    connections: list[_Connection]
+
     # Add further statistics attributes
 
 
@@ -20,6 +22,8 @@ class _Connection:
         - len(player_connection) == 2 or len(player_connection) == 0
     """
     player_connection: list[_Player]
+    player1_avg_assists: Optional[float]
+    player2_avg_assists: Optional[float]
     # Add further statistic attributes
 
 
