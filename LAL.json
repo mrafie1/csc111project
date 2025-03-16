@@ -77,7 +77,8 @@
     }
   },
   "defensive_stats": {
-    "games": 7,
+    "minutes": 85,
+    "points": 8,
     "rebounds": 19,
     "steals": 0,
     "blocks": 2
@@ -158,7 +159,8 @@
     }
   },
   "defensive_stats": {
-    "games": 32,
+    "minutes": 567,
+    "points": 103,
     "rebounds": 62,
     "steals": 31,
     "blocks": 10
@@ -232,8 +234,8 @@
     }
   },
   "defensive_stats": {
-    "games": 21,
-    "rebounds": 116,
+    "minutes": 364,
+    "rebounds": 94,
     "steals": 23,
     "blocks": 6
   }
@@ -348,7 +350,8 @@
     }
   },
   "defensive_stats": {
-    "games": 62,
+    "minutes": 1280,
+    "points": 595,
     "rebounds": 185,
     "steals": 22,
     "blocks": 5
@@ -458,7 +461,8 @@
     }
   },
   "defensive_stats": {
-    "games": 56,
+    "minutes": 1176,
+    "points": 333,
     "rebounds": 66,
     "steals": 40,
     "blocks": 12
@@ -568,7 +572,8 @@
     }
   },
   "defensive_stats": {
-    "games": 56,
+    "minutes": 92,
+    "points": 30,
     "rebounds": 66,
     "steals": 40,
     "blocks": 12
@@ -660,7 +665,8 @@
     }
   },
   "defensive_stats": {
-    "games": 31,
+    "minutes": 280,
+    "points": 73,
     "rebounds": 71,
     "steals": 7,
     "blocks": 11
@@ -758,7 +764,8 @@
     }
   },
   "defensive_stats": {
-    "games": 40,
+    "miutes": 766,
+    "points": 257,
     "rebounds": 182,
     "steals": 22,
     "blocks": 41
@@ -874,7 +881,8 @@
     }
   },
   "defensive_stats": {
-    "games": 58,
+    "minutes": 2000,
+    "points": 1116,
     "rebounds": 258,
     "steals": 65,
     "blocks": 16
@@ -948,7 +956,8 @@
       }
     },
     "defensive_stats": {
-      "games": 28,
+      "minutes": 776,
+      "points": 185,
       "rebounds": 99,
       "steals": 26,
       "blocks": 3
@@ -1052,7 +1061,8 @@
       }
     },
     "defensive_stats": {
-      "games": 22,
+      "minutes": 251,
+      "points": 89,
       "rebounds": 41,
       "steals": 7,
       "blocks": 2
@@ -1162,7 +1172,8 @@
     }
   },
   "defensive_stats": {
-    "games": 58,
+    "minutes": 2023,
+    "points": 1450,
     "rebounds": 476,
     "steals": 52,
     "blocks": 35
@@ -1278,7 +1289,8 @@
       }
     },
     "defensive_stats": {
-      "games": 50,
+      "minutes": 1605,
+      "points": 665,
       "rebounds": 261,
       "steals": 40,
       "blocks": 24
@@ -1382,7 +1394,8 @@
       }
     },
     "defensive_stats": {
-      "games": 12,
+      "minutes": 234,
+      "points": 82,
       "rebounds": 51,
       "steals": 13,
       "blocks": 4
@@ -1463,7 +1476,8 @@
       }
     },
     "defensive_stats": {
-      "games": 15,
+      "minutes": 171,
+      "points": 46,
       "rebounds": 43,
       "steals": 1,
       "blocks": 8
@@ -1549,7 +1563,8 @@
       }
     },
     "defensive_stats": {
-      "games": 13,
+      "minutes": 445,
+      "points": 339,
       "rebounds": 112,
       "steals": 24,
       "blocks": 6
@@ -1629,7 +1644,8 @@
       }
     },
     "defensive_stats": {
-      "games": 5,
+      "minutes": 56,
+      "points": 22,
       "rebounds": 7,
       "steals": 0,
       "blocks": 0
