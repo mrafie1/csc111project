@@ -56,6 +56,19 @@ class _Connection:
         self.player2_avg_assists_per_pass = 0
         self.avg_passes_per_minute = 0
 
+    def tweak_stats(self, player: _Player, assist, passes, minutes_together):
+        # Check if this is player 1
+        if self.player_connection[0] == player:
+            self.player1_avg_assists_per_pass = assist/passes
+        # This is player 2
+        else:
+            self.player2_avg_assists_per_pass = assist/passes
+        self.avg_passes_per_minute = passes/minutes_together
+
+    def finalize_stats(self):
+        self.max_avg_assists_per_pass = max(self.player1_avg_assists_per_pass, self.player2_avg_assists_per_pass)
+
+
 
 
 class Graph:
@@ -67,7 +80,7 @@ class Graph:
     #     - _players: A collection of the players contained in this graph.
     #                  Maps name to _Player instance.
     _players: dict[str, _Player]
-    _connections: set[_Connection]
+    _connections: dict[set[str], _Connection]
 
     def __init__(self):
         self._players = {}
@@ -75,3 +88,10 @@ class Graph:
     def add_player(self, player: _Player):
         if player.name not in self._players:
             self._players[player.name] = player
+
+    def add_connection(self, player1: _Player, player2: str, assist, passes, minutes_together):
+        if {player1.name, player2} not in self._connections:
+            new_connection = _Connection(player1, self._players[player2])
+            self._connections[{player1.name, player2}] = new_connection
+
+        self._connections[{player1.name, player2}].tweak_stats(player1, assist, passes, minutes_together)
