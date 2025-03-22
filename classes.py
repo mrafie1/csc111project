@@ -25,11 +25,11 @@ class _Player:
         self.name = name
         self.team = team
         self.position = position
-        self.avg_points = points/minutes
-        self.avg_rebounds = rebounds/minutes
-        self.avg_assists = assists/minutes
-        self.avg_steals = steals/minutes
-        self.avg_blocks = blocks/minutes
+        self.avg_points = round(points / minutes, 3)
+        self.avg_rebounds = round(rebounds / minutes, 3)
+        self.avg_assists = round(assists / minutes, 3)
+        self.avg_steals = round(steals / minutes, 3)
+        self.avg_blocks = round(blocks / minutes, 3)
         self.minutes = minutes
 
         self.connections = []
