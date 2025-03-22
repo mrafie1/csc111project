@@ -44,7 +44,7 @@ class LineupSimulation:
         return graph
 
     def process_passes(self, raw_info: dict[dict]) -> float:
-        """Returns the average assists of the player
+        """Returns the average assists of the player as a float rounded to two decimal places
 
         Representation Invariant:
             - raw_info in same format as "passes_to" dict in LAL.json and DAL.json files
@@ -61,7 +61,7 @@ class LineupSimulation:
         return avg_assists
 
     def process_defense(self, raw_info: dict[str, int]) -> dict:
-        """Returns the average passes, assists, alonside the position of the person passed to all in a dict
+        """Returns the average points, rebounds, blocks, and steals alongside total minutes in a dict. Floats rounded to two decimals.
 
                 Representation Invariant:
                     - raw_info in same format as "defensive_stats" dict in LAL.json and DAL.json files
