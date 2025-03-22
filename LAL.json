@@ -236,6 +236,7 @@
   "defensive_stats": {
     "minutes": 364,
     "rebounds": 94,
+    "points": 1,
     "steals": 23,
     "blocks": 6
   }
@@ -764,7 +765,7 @@
     }
   },
   "defensive_stats": {
-    "miutes": 766,
+    "minutes": 766,
     "points": 257,
     "rebounds": 182,
     "steals": 22,
