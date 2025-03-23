@@ -99,3 +99,8 @@ class Graph:
             self._connections[(player1.name, player2)] = new_connection
 
         self._connections[(player1.name, player2)].tweak_stats(player1, assist, passes, minutes_together)
+
+    def check_exists(self, player1_name: str, player2_name: str) -> bool:
+
+        keys = self._players.keys()
+        return (player1_name, player2_name) in keys or (player1_name, player2_name) in keys
