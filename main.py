@@ -88,10 +88,10 @@ class LineupSimulation:
         return defense
 
     """def get_player(self, player_name: str) -> Optional[_Player]:
-        
+
         Returns the player object in self.players from the give player_name
 
-        
+
         for player in self.players:
             if player == player_name:
                 return self.players[player][0]

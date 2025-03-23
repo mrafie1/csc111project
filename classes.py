@@ -58,11 +58,11 @@ class _Connection:
     def tweak_stats(self, player: _Player, assist, passes, minutes_together):
         # Check if this is player 1
         if self.player_connection[0] == player:
-            self.player1_avg_assists_per_pass = assist/passes
+            self.player1_avg_assists_per_pass = round(assist/passes, 3)
         # This is player 2
         else:
-            self.player2_avg_assists_per_pass = assist/passes
-        self.avg_passes_per_minute = passes/minutes_together
+            self.player2_avg_assists_per_pass = round(assist/passes, 3)
+        self.avg_passes_per_minute = round(passes/minutes_together, 3)
 
     def finalize_stats(self):
         self.max_avg_assists_per_pass = max(self.player1_avg_assists_per_pass, self.player2_avg_assists_per_pass)
@@ -87,20 +87,34 @@ class Graph:
         if player.name not in self._players:
             self._players[player.name] = player
 
-    def add_connection(self, player1: _Player, player2: str, assist, passes, minutes_together):
+    def add_connection(self, player1: _Player, player2: str, assist, passes, minutes_together) -> None:
         """
         Adds connection between two players using the _Connection class
 
         Representation Invariants:
             - player2 in self._players
         """
-        if self.check_exists(player1.name, player2):
+        if not self.check_exists(player1.name, player2):
             new_connection = _Connection(player1, self._players[player2])
             self._connections[(player1.name, player2)] = new_connection
 
-        self._connections[(player1.name, player2)].tweak_stats(player1, assist, passes, minutes_together)
+        if (player1.name, player2) in self._connections:
+            self._connections[(player1.name, player2)].tweak_stats(player1, assist, passes, minutes_together)
+        else:
+            self._connections[(player2, player1.name)].tweak_stats(player1, assist, passes, minutes_together)
 
     def check_exists(self, player1_name: str, player2_name: str) -> bool:
 
-        keys = self._players.keys()
-        return (player1_name, player2_name) in keys or (player1_name, player2_name) in keys
+        keys = self._connections.keys()
+        return (player1_name, player2_name) in keys or (player2_name, player1_name) in keys
+
+    def __str__(self):
+        str_so_far = "PLAYERS\n"
+        for player in self._players:
+            str_so_far += f'\n{self._players[player].name}'
+
+        str_so_far += '\n=================================\nCONNECTIONS\n'
+        for (player1, player2) in self._connections.keys():
+            str_so_far += f'\n{player1} <---> {player2}'
+
+        return str_so_far
