@@ -94,7 +94,7 @@ class Graph:
         Representation Invariants:
             - player2 in self._players
         """
-        if (player1.name, player2) not in self._connections:
+        if self.check_exists(player1.name, player2):
             new_connection = _Connection(player1, self._players[player2])
             self._connections[(player1.name, player2)] = new_connection
 
