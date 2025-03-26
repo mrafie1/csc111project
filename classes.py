@@ -8,6 +8,7 @@ GUARD_WEIGHTS = {'points': 1.6, 'rebound': 0.9, 'blocks': 0.65, 'steals': 1.6, '
 
 POSITION_WEIGHTS = {"Center": CENTER_WEIGHTS, "Forward": FORWARD_WEIGHTS, "Guard": GUARD_WEIGHTS}
 
+
 class _Player:
     """ Player class representing the statistics of each player.
     Analogous to the _vertex class in a graph.
@@ -43,12 +44,12 @@ class _Player:
     def calculate_pie(self) -> float:
         """Compute the Player Impact Estimate (PIE) using positional weights."""
         # Determine primary position (first in the list)
-        primary_position = self.position[0]  # Default to SF if unknown
+        primary_position = self.position[0]
 
         # Get the weight dictionary for this position
-        weights = POSITION_WEIGHTS[primary_position]  # Default to SF
+        weights = POSITION_WEIGHTS[primary_position]
 
-        # Compute PIE (No Division)
+        # Compute player impact
         self.player_impact_estimate = (
                 (self.avg_points * weights['points']) +
                 (self.avg_rebounds * weights['rebound']) +
