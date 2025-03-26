@@ -2,6 +2,12 @@ from __future__ import annotations
 from typing import Any, Optional
 
 
+CENTER_WEIGHTS = {'points': 1, 'rebound': 1.5, 'blocks': 1, 'steals': 1, 'assists': 1.1}
+FORWARD_WEIGHTS = {'points': 1.3, 'rebound': 1.3, 'blocks': 1, 'steals': 1.1, 'assists': 1.3}
+GUARD_WEIGHTS = {'points': 1.6, 'rebound': 0.9, 'blocks': 0.65, 'steals': 1.6, 'assists': 1.7}
+
+POSITION_WEIGHTS = {"Center": CENTER_WEIGHTS, "Forward": FORWARD_WEIGHTS, "Guard": GUARD_WEIGHTS}
+
 class _Player:
     """ Player class representing the statistics of each player.
     Analogous to the _vertex class in a graph.
@@ -31,10 +37,27 @@ class _Player:
         self.avg_steals = round(steals / minutes, 3)
         self.avg_blocks = round(blocks / minutes, 3)
         self.minutes = minutes
-
         self.connections = []
-        # Change later
         self.player_impact_estimate = 0
+
+    def calculate_pie(self) -> float:
+        """Compute the Player Impact Estimate (PIE) using positional weights."""
+        # Determine primary position (first in the list)
+        primary_position = self.position[0]  # Default to SF if unknown
+
+        # Get the weight dictionary for this position
+        weights = POSITION_WEIGHTS[primary_position]  # Default to SF
+
+        # Compute PIE (No Division)
+        self.player_impact_estimate = (
+                (self.avg_points * weights['points']) +
+                (self.avg_rebounds * weights['rebound']) +
+                (self.avg_assists * weights['assists']) +
+                (self.avg_steals * weights['steals']) +
+                (self.avg_blocks * weights['blocks'])
+        )
+
+        return round(self.player_impact_estimate, 3)  # Return rounded PIE value
 
 
 class _Connection:
