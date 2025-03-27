@@ -5,7 +5,6 @@ from typing import Optional
 
 import networkx as nx
 
-
 from classes import Graph, _Player
 from visualization import visualize_heatmap
 
@@ -30,10 +29,7 @@ class LineupSimulation:
         self.players = {}
         self.team_graph = self._load_game_data(filename)
         self.lineup = self.generate_lineup()
-        if filename.startswith('L'):
-            self.team_name = 'Los Angeles Lakers'
-        else:
-            self.team_name = 'Dallas Mavericks'
+        self.team_name = filename
 
     def _load_game_data(self, filename: str) -> Graph:
         """Load players from a JSON file with the given filename and
@@ -188,4 +184,20 @@ def visualize_graph(g: Graph) -> None:
     for vertex in g._players:
         nxgraph.add_node(vertex)
 
-    nx.draw(nxgraph)
+    for connection in g._connections:
+        connection_object = g._connections[connection]
+        connection_score = connection_object.synergy_score
+
+        # init edge color
+        col = None
+
+        if connection_score >= 1.75:
+            col = 'green'
+        elif connection_score > 0.75:
+            col = 'yellow'
+        else:
+            col = 'red'
+
+        nxgraph.add_edge(connection[0], connection[1])
+
+    nx.draw(nxgraph, with_labels=True)
