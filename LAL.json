@@ -109,12 +109,6 @@
       "assists": 3,
       "minutes_together": 96
     },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 20,
-      "assists": 1,
-      "minutes_together": 161
-    },
     "Austin Reaves": {
       "positions": ["Guard"],
       "total_passes": 71,
@@ -236,7 +230,7 @@
   "defensive_stats": {
     "minutes": 364,
     "rebounds": 94,
-    "points": 1,
+    "points": 72,
     "steals": 23,
     "blocks": 6
   }
@@ -264,12 +258,6 @@
       "total_passes": 20,
       "assists": 1,
       "minutes_together": 167
-    },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 37,
-      "assists": 1,
-      "minutes_together": 368
     },
     "Jordan Goodwin": {
       "positions": ["Guard"],
@@ -487,23 +475,11 @@
       "assists": 1,
       "minutes_together": 19
     },
-    "Maxwell Lewis": {
-      "positions": ["Forward"],
-      "total_passes": 1,
-      "assists": 0,
-      "minutes_together": 6
-    },
     "Christian Koloko": {
       "positions": ["Center"],
       "total_passes": 8,
       "assists": 1,
       "minutes_together": 42
-    },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 13,
-      "assists": 0,
-      "minutes_together": 26
     },
     "Jordan Goodwin": {
       "positions": ["Guard"],
@@ -598,12 +574,6 @@
       "assists": 6,
       "minutes_together": 167
     },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 22,
-      "assists": 1,
-      "minutes_together": 94
-    },
     "Jordan Goodwin": {
       "positions": ["Guard"],
       "total_passes": 8,
@@ -696,12 +666,6 @@
       "total_passes": 1,
       "assists": 0,
       "minutes_together": 3
-    },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 18,
-      "assists": 1,
-      "minutes_together": 181
     },
     "Jordan Goodwin": {
       "positions": ["Guard"],
@@ -802,12 +766,6 @@
       "assists": 5,
       "minutes_together": 90
     },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 225,
-      "assists": 26,
-      "minutes_together": 767
-    },
     "Jordan Goodwin": {
       "positions": ["Guard"],
       "total_passes": 38,
@@ -900,12 +858,6 @@
         "total_passes": 14,
         "assists": 2,
         "minutes_together": 1
-      },
-      "Max Christie": {
-        "positions": ["Guard"],
-        "total_passes": 27,
-        "assists": 1,
-        "minutes_together": 2
       },
       "Jordan Goodwin": {
         "positions": ["Guard"],
@@ -1099,12 +1051,6 @@
       "assists": 5,
       "minutes_together": 131
     },
-    "Max Christie": {
-      "positions": ["Guard"],
-      "total_passes": 213,
-      "assists": 32,
-      "minutes_together": 652
-    },
     "Jordan Goodwin": {
       "positions": ["Guard"],
       "total_passes": 32,
@@ -1198,12 +1144,6 @@
         "assists": 0,
         "minutes_together": 1077
       },
-      "Max Christie": {
-        "positions": ["Guard"],
-        "total_passes": 27,
-        "assists": 4,
-        "minutes_together": 652
-      },
       "Gabe Vincent": {
         "positions": ["Guard"],
         "total_passes": 20,
@@ -1227,12 +1167,6 @@
         "total_passes": 20,
         "assists": 2,
         "minutes_together": 240
-      },
-      "D'Angelo Russell": {
-        "positions": ["Guard"],
-        "total_passes": 27,
-        "assists": 4,
-        "minutes_together": 413
       },
       "Jarred Vanderbilt": {
         "positions": ["Forward"],
