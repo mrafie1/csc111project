@@ -188,11 +188,13 @@ class Graph:
 
     def visualize_graph(self) -> None:
         nxgraph = nx.Graph()
-        for vertex in g._players:
+
+        for vertex in self._players:
             nxgraph.add_node(vertex)
 
-        for connection in g._connections:
-            connection_object = g._connections[connection]
+        colors = []
+        for connection in self._connections:
+            connection_object = self._connections[connection]
             connection_score = connection_object.synergy_score
 
             # init edge color
@@ -201,10 +203,12 @@ class Graph:
             if connection_score >= 1.75:
                 col = 'green'
             elif connection_score > 0.75:
-                col = 'yellow'
+                col = 'purple'
             else:
                 col = 'red'
 
             nxgraph.add_edge(connection[0], connection[1])
+            nxgraph.edges[connection[0], connection[1]]['color'] = col
+            colors.append(col)
 
-        nx.draw(nxgraph, with_labels=True)
+        nx.draw(nxgraph, with_labels=True, edge_color=colors)
