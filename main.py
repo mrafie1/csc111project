@@ -6,7 +6,8 @@ from typing import Optional
 import networkx as nx
 
 
-from classes import Graph, _Player, _Connection
+from classes import Graph, _Player
+from visualization import visualize_heatmap
 
 
 class LineupSimulation:
@@ -23,11 +24,16 @@ class LineupSimulation:
     team_graph: Graph
     lineup: list[_Player]
     players: dict
+    team_name: str
 
     def __init__(self, filename: str):
         self.players = {}
         self.team_graph = self._load_game_data(filename)
         self.lineup = self.generate_lineup()
+        if filename.startswith('L'):
+            self.team_name = 'Los Angeles Lakers'
+        else:
+            self.team_name = 'Dallas Mavericks'
 
     def _load_game_data(self, filename: str) -> Graph:
         """Load players from a JSON file with the given filename and
@@ -49,6 +55,8 @@ class LineupSimulation:
                                  defense['rebounds'], assists, defense['minutes'],
                                  defense['steals'], defense['blocks'])
             graph.add_player(player_obj)
+
+            # Maps name to a tuple of _Player object and the passes_to dict seen in the json files
             self.players[player_obj.name] = (player_obj, interactions)
 
         # graph._players = players
@@ -156,6 +164,23 @@ class LineupSimulation:
 
         player_pos2 = max_player
         return player_pos1, player_pos2
+
+    def visualize_heatmap(self) -> None:
+        """
+        Visualzes the pass synergy of each player in a heatmap
+
+        >>>x=LineupSimulation("DAL.json")
+        >>>x.visualize_heatmap()
+
+        >>>x=LineupSimulation("LAL.json")
+        >>>x.visualize_heatmap()
+        """
+        pass_data = {}
+        for player in self.players:
+            pass_data[player] = self.team_graph.get_passes_per_minute_dict(player, self.players[player][1])
+
+        # Calls visuaize_heatmap from visualization.py
+        visualize_heatmap(pass_data, self.team_name)
 
 
 def visualize_graph(g: Graph) -> None:

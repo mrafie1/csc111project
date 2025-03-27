@@ -4,7 +4,7 @@ from typing import Any, Optional
 
 CENTER_WEIGHTS = {'points': 1, 'rebound': 1.5, 'blocks': 1, 'steals': 1, 'assists': 1.1}
 FORWARD_WEIGHTS = {'points': 1.3, 'rebound': 1.3, 'blocks': 1, 'steals': 1.1, 'assists': 1.3}
-GUARD_WEIGHTS = {'points': 1.6, 'rebound': 0.9, 'blocks': 0.65, 'steals': 1.6, 'assists': 1.7}
+GUARD_WEIGHTS = {'points': 1.6, 'rebound': 0.9, 'blocks': 0.7, 'steals': 1.6, 'assists': 1.7}
 
 POSITION_WEIGHTS = {"Center": CENTER_WEIGHTS, "Forward": FORWARD_WEIGHTS, "Guard": GUARD_WEIGHTS}
 
@@ -39,11 +39,10 @@ class _Player:
         self.avg_blocks = round(blocks / minutes, 3)
         self.minutes = minutes
         self.connections = []
-        self.player_impact_estimate = 0
+        self.player_impact_estimate = self.calculate_player_impact()
 
-    def calculate_pie(self) -> float:
-        """Compute the Player Impact Estimate (PIE) using positional weights."""
-        # Determine primary position (first in the list)
+    def calculate_player_impact(self) -> float:
+        """Compute the Player Impact Estimate using positional weights."""
         primary_position = self.position[0]
 
         # Get the weight dictionary for this position
@@ -71,25 +70,49 @@ class _Connection:
     player1_avg_assists_per_pass: Optional[float]
     player2_avg_assists_per_pass: Optional[float]
     max_avg_assists_per_pass: Optional[float]
-    avg_passes_per_minute: float
+    avg_passes_per_minute_player1: float
+    avg_passes_per_minute_player2: float
+    synergy_score: float
 
     def __init__(self, player1: _Player, player2: _Player):
         self.player_connection = [player1, player2]
         self.player1_avg_assists_per_pass = 0
         self.player2_avg_assists_per_pass = 0
         self.avg_passes_per_minute = 0
+        self.synergy_score = self.calculate_synergy_score()
 
     def tweak_stats(self, player: _Player, assist, passes, minutes_together):
         # Check if this is player 1
         if self.player_connection[0] == player:
             self.player1_avg_assists_per_pass = round(assist/passes, 3)
+            self.avg_passes_per_minute_player1 = round(passes / minutes_together, 3)
         # This is player 2
         else:
             self.player2_avg_assists_per_pass = round(assist/passes, 3)
-        self.avg_passes_per_minute = round(passes/minutes_together, 3)
+            self.avg_passes_per_minute_player2 = round(passes / minutes_together, 3)
 
     def finalize_stats(self):
         self.max_avg_assists_per_pass = max(self.player1_avg_assists_per_pass, self.player2_avg_assists_per_pass)
+
+    def calculate_synergy_score(self) -> float:
+        """
+        Returns the synergy score between the two players by getting the average of their player impact estimates.
+        Returns 0 if self.player_connection is empty (i.e. the connection hasn't been formed yet)
+        """
+        if len(self.player_connection) == 2:
+            return (self.player_connection[0].player_impact_estimate +
+                    self.player_connection[1].player_impact_estimate) / 2
+        else:
+            return 0
+
+    def get_avg_passes_per_minute(self, player_name: str) -> float:
+        """
+        Returns the average passes per minute of the given player_name to the other player in this connection
+        """
+        if self.player_connection[0].name == player_name:
+            return self.avg_passes_per_minute_player1
+        else:
+            return self.avg_passes_per_minute_player2
 
 
 class Graph:
@@ -122,10 +145,8 @@ class Graph:
             new_connection = _Connection(player1, self._players[player2])
             self._connections[(player1.name, player2)] = new_connection
 
-        if (player1.name, player2) in self._connections:
-            self._connections[(player1.name, player2)].tweak_stats(player1, assist, passes, minutes_together)
-        else:
-            self._connections[(player2, player1.name)].tweak_stats(player1, assist, passes, minutes_together)
+        connection_key = self.get_connection_key(player1.name, player2)
+        self._connections[connection_key].tweak_stats(player1, assist, passes, minutes_together)
 
     def check_exists(self, player1_name: str, player2_name: str) -> bool:
 
@@ -142,3 +163,36 @@ class Graph:
             str_so_far += f'\n{player1} <---> {player2}'
 
         return str_so_far
+
+    def get_passes_per_minute_dict(self, player1_name: str, player_names: list) -> dict:
+        """
+        Returns a dict of the average passes per minute of the given player1_name to all the players player1_name
+        has passed to
+        """
+        pass_data = {}
+        for player2_name in player_names:
+            curr_key = self.get_connection_key(player1_name, player2_name)
+            pass_data[player2_name] = self._connections[curr_key].get_avg_passes_per_minute(player1_name)
+        # for connection in self._connections.keys():
+        #     if player_name in connection:
+        #         for player in connection:
+        #             if player_name != player:
+        #                 other_player = player
+        #
+        #                 if (player_name, other_player) in self._connections:
+        #                     pass_data[other_player] = (
+        #                         self._connections[(player_name, other_player)].avg_passes_per_minute)
+        #                 else:
+        #                     pass_data[other_player] = (
+        #                         self._connections[(player_name, other_player)].avg_passes_per_minute)
+        print(pass_data)
+        return pass_data
+
+    def get_connection_key(self, player1_name: str, player2_name: str) -> tuple[str, str]:
+        """
+        Returns the key in self._connections assiosiated with the given player1_name and player2_name
+        """
+        if (player1_name, player2_name) in self._connections:
+            return (player1_name, player2_name)
+        else:
+            return (player2_name, player1_name)
