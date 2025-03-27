@@ -178,9 +178,9 @@ class LineupSimulation:
         # Calls visuaize_heatmap from visualization.py
         create_heatmap(pass_data, self.team_name)
 
-    def show_lineup(self) -> None:
+    def show_graph(self) -> None:
         """
         >>>x=LineupSimulation("DAL.json")
-        >>>x.show_lineup()
+        >>>x.show_graph()
         """
         self.team_graph.visualize_graph()
