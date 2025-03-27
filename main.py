@@ -3,6 +3,9 @@ from __future__ import annotations
 import json
 from typing import Optional
 
+import networkx as nx
+
+
 from classes import Graph, _Player, _Connection
 
 
@@ -130,8 +133,8 @@ class LineupSimulation:
         """
         lst = []
         for player in self.players:
-            p = self.players[player]
-            if player.position[0] == pos:
+            p = self.players[player][0]
+            if p.position[0] == pos:
                 lst.append(p)
 
         max_player = lst[0]
@@ -153,3 +156,11 @@ class LineupSimulation:
 
         player_pos2 = max_player
         return player_pos1, player_pos2
+
+
+def visualize_graph(g: Graph) -> None:
+    nxgraph = nx.Graph()
+    for vertex in g._players:
+        nxgraph.add_node(vertex)
+
+    nx.draw(nxgraph)
