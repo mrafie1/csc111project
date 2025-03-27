@@ -27,7 +27,8 @@ def visualize_heatmap(pass_data: dict, team_name: str) -> None:
 
     plt.figure(figsize=(12, 10))
     sns.heatmap(matrix, annot=True, cmap="Blues", fmt=".3f", linewidths=1)
-    plt.title(f"Player Passing Synergy Heatmap for {team_name}")
+    plt.title(f"Player Passing Per Minute Synergy Heatmap for {team_name}\n "
+              f"(Note that a value of 0 means the two players have not played together)")
     plt.xlabel("Players (Receiving the Pass)")
     plt.ylabel("Players (Making the Pass)")
     plt.subplots_adjust(left=0.15, right=1.05, top=0.90, bottom=0.28)

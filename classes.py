@@ -173,18 +173,6 @@ class Graph:
         for player2_name in player_names:
             curr_key = self.get_connection_key(player1_name, player2_name)
             pass_data[player2_name] = self._connections[curr_key].get_avg_passes_per_minute(player1_name)
-        # for connection in self._connections.keys():
-        #     if player_name in connection:
-        #         for player in connection:
-        #             if player_name != player:
-        #                 other_player = player
-        #
-        #                 if (player_name, other_player) in self._connections:
-        #                     pass_data[other_player] = (
-        #                         self._connections[(player_name, other_player)].avg_passes_per_minute)
-        #                 else:
-        #                     pass_data[other_player] = (
-        #                         self._connections[(player_name, other_player)].avg_passes_per_minute)
         print(pass_data)
         return pass_data
 
