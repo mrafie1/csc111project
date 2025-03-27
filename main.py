@@ -7,17 +7,24 @@ from classes import Graph, _Player, _Connection
 
 
 class LineupSimulation:
-    """A lineup simulation  storing the graph and all player info.
+    """A lineup simulation storing the graph and all player info.
 
         Instance Attributes:
-            -
+            - team_graph
+            - lineup_graph
 
         """
 
     # Private Instance Attributes:
     #   -
+    team_graph: Graph
+    lineup: list[_Player]
+    players: dict
 
-    players = {}
+    def __init__(self, filename: str):
+        self.players = {}
+        self.team_graph = self._load_game_data(filename)
+        self.lineup = self.generate_lineup()
 
     def _load_game_data(self, filename: str) -> Graph:
         """Load players from a JSON file with the given filename and
@@ -97,3 +104,52 @@ class LineupSimulation:
                 return self.players[player][0]
         return None
     """
+
+    def generate_lineup(self) -> list[_Player]:
+        """
+
+        """
+        lst = []
+
+        guards = self.highest_in_position("Guard")
+        lst.append(guards[0])
+        lst.append(guards[1])
+
+        forwards = self.highest_in_position("Forward")
+        lst.append(forwards[0])
+        lst.append(forwards[1])
+
+        center = self.highest_in_position("Forward")
+        lst.append(center[0])
+
+        return lst
+
+    def highest_in_position(self, pos: str) -> tuple[_Player, _Player]:
+        """
+        Return top two players in each position
+        """
+        lst = []
+        for player in self.players:
+            p = self.players[player]
+            if player.position[0] == pos:
+                lst.append(p)
+
+        max_player = lst[0]
+        max_pie = max_player.player_impact_estimate
+        for player in lst:
+            if player.player_impact_estimate > max_pie:
+                max_player = player
+                max_pie = max_player.player_impact_estimate
+
+        player_pos1 = max_player
+        lst.remove(max_player)
+
+        max_player = lst[0]
+        max_pie = max_player.player_impact_estimate
+        for player in lst:
+            if player.player_impact_estimate > max_pie:
+                max_player = player
+                max_pie = max_player.player_impact_estimate
+
+        player_pos2 = max_player
+        return player_pos1, player_pos2
