@@ -6,7 +6,7 @@ from typing import Optional
 import networkx as nx
 
 from classes import Graph, _Player
-from visualization import visualize_heatmap
+from visualization import create_heatmap
 
 
 class LineupSimulation:
