@@ -30,10 +30,7 @@ class LineupSimulation:
         self.players = {}
         self.team_graph = self._load_game_data(filename)
         self.lineup = self.generate_lineup()
-        if filename.startswith('L'):
-            self.team_name = 'Los Angeles Lakers'
-        else:
-            self.team_name = 'Dallas Mavericks'
+        self.team_name = filename
 
     def _load_game_data(self, filename: str) -> Graph:
         """Load players from a JSON file with the given filename and
