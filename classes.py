@@ -1,6 +1,7 @@
 from __future__ import annotations
 from typing import Any, Optional
 
+import networkx as nx
 
 CENTER_WEIGHTS = {'points': 1, 'rebound': 1.5, 'blocks': 1, 'steals': 1, 'assists': 1.1}
 FORWARD_WEIGHTS = {'points': 1.3, 'rebound': 1.3, 'blocks': 1, 'steals': 1.1, 'assists': 1.3}
@@ -184,3 +185,26 @@ class Graph:
             return (player1_name, player2_name)
         else:
             return (player2_name, player1_name)
+
+    def visualize_graph(self) -> None:
+        nxgraph = nx.Graph()
+        for vertex in g._players:
+            nxgraph.add_node(vertex)
+
+        for connection in g._connections:
+            connection_object = g._connections[connection]
+            connection_score = connection_object.synergy_score
+
+            # init edge color
+            col = None
+
+            if connection_score >= 1.75:
+                col = 'green'
+            elif connection_score > 0.75:
+                col = 'yellow'
+            else:
+                col = 'red'
+
+            nxgraph.add_edge(connection[0], connection[1])
+
+        nx.draw(nxgraph, with_labels=True)

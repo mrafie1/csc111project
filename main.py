@@ -176,28 +176,4 @@ class LineupSimulation:
             pass_data[player] = self.team_graph.get_passes_per_minute_dict(player, self.players[player][1])
 
         # Calls visuaize_heatmap from visualization.py
-        visualize_heatmap(pass_data, self.team_name)
-
-
-def visualize_graph(g: Graph) -> None:
-    nxgraph = nx.Graph()
-    for vertex in g._players:
-        nxgraph.add_node(vertex)
-
-    for connection in g._connections:
-        connection_object = g._connections[connection]
-        connection_score = connection_object.synergy_score
-
-        # init edge color
-        col = None
-
-        if connection_score >= 1.75:
-            col = 'green'
-        elif connection_score > 0.75:
-            col = 'yellow'
-        else:
-            col = 'red'
-
-        nxgraph.add_edge(connection[0], connection[1])
-
-    nx.draw(nxgraph, with_labels=True)
+        create_heatmap(pass_data, self.team_name)
