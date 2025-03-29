@@ -126,7 +126,7 @@ class LineupSimulation:
         lst.append(forwards[0])
         lst.append(forwards[1])
 
-        center = self.highest_in_position("Forward")
+        center = self.highest_in_position("Center")
         lst.append(center[0])
 
         return lst
@@ -182,5 +182,7 @@ class LineupSimulation:
         """
         >>>x=LineupSimulation("DAL.json")
         >>>x.show_graph()
+        >>>x=LineupSimulation("LAL.json")
+        >>>x.show_graph()
         """
-        self.team_graph.visualize_graph()
+        self.team_graph.visualize_graph(self.lineup)

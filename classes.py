@@ -2,6 +2,7 @@ from __future__ import annotations
 from typing import Any, Optional
 
 import networkx as nx
+import matplotlib.pyplot as plt
 
 CENTER_WEIGHTS = {'points': 1, 'rebound': 1.5, 'blocks': 1, 'steals': 1, 'assists': 1.1}
 FORWARD_WEIGHTS = {'points': 1.3, 'rebound': 1.3, 'blocks': 1, 'steals': 1.1, 'assists': 1.3}
@@ -186,13 +187,17 @@ class Graph:
         else:
             return (player2_name, player1_name)
 
-    def visualize_graph(self) -> None:
+    def visualize_graph(self, ideal_lineup: list[_Player]) -> None:
         nxgraph = nx.Graph()
 
+        node_colors = []
         for vertex in self._players:
             nxgraph.add_node(vertex)
+            if self._players[vertex] in ideal_lineup:
+                node_colors.append('green')
+            else:
+                node_colors.append('blue')
 
-        colors = []
         for connection in self._connections:
             connection_object = self._connections[connection]
             connection_score = connection_object.synergy_score
@@ -203,12 +208,18 @@ class Graph:
             if connection_score >= 1.75:
                 col = 'green'
             elif connection_score > 0.75:
-                col = 'purple'
+                col = '#8A2BE2'
             else:
-                col = 'red'
+                col = 'darkred'
 
             nxgraph.add_edge(connection[0], connection[1])
             nxgraph.edges[connection[0], connection[1]]['color'] = col
-            colors.append(col)
 
-        nx.draw(nxgraph, with_labels=True, edge_color=colors)
+
+        pos = nx.circular_layout(nxgraph)
+        plt.figure(figsize=(10, 7))
+        edge_colors_for_drawing = [nxgraph.edges[edge]['color'] for edge in nxgraph.edges]
+        nx.draw(nxgraph, pos, with_labels=True, edge_color=edge_colors_for_drawing, node_color=node_colors, font_size=10, alpha=0.7)
+
+    def get_connections(self):
+        return self._connections.copy()
