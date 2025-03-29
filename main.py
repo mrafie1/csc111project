@@ -1,9 +1,14 @@
-# MAIN FILE FOR PYTHON PROJECT
+"""CSC111 Project 2:
+Top Hoops: NBA Optimal Basketball Lineup
+Abdullah Alhidary, Houssam Yaacoub, Justin Peng, Muhammad Rafie
+
+This module is the main file for the project. This file contains the 'LineupSimulation' class: This is where
+users will run the file, create a LineupSimulation instance by initializing it with a datafile. The user can then
+run 'visualize_heatmap()' and 'show_graph()' to see the passes made between players and the connections between
+players as well as the optimal lineup based on this program calculating each player's player impact estimate.
+"""
 from __future__ import annotations
 import json
-from typing import Optional
-
-import networkx as nx
 
 from classes import Graph, _Player
 from visualization import create_heatmap
@@ -13,19 +18,20 @@ class LineupSimulation:
     """A lineup simulation storing the graph and all player info.
 
         Instance Attributes:
-            - team_graph
-            - lineup_graph
-
+            - team_graph: Graph object of given datafile
+            - lineup: List of top 5 players as _Player classes based on their positions and player_impact_estimate
+            - players: Dictionary mapping player name to a tuple consisting of the player object and its interactions
+            - team_name: Name of the datafile team
         """
-
-    # Private Instance Attributes:
-    #   -
     team_graph: Graph
     lineup: list[_Player]
     players: dict
     team_name: str
 
-    def __init__(self, filename: str):
+    def __init__(self, filename: str) -> None:
+        """
+        Initialize a new LineupSimulation class with given filename.
+        """
         self.players = {}
         self.team_graph = self._load_game_data(filename)
         self.lineup = self.generate_lineup()
@@ -72,9 +78,8 @@ class LineupSimulation:
     def process_assists(self, raw_info: dict[dict]) -> tuple[int, dict[str, dict]]:
         """Returns the assists, passes, and minutes together of the player in a dict
 
-        Representation Invariant:
+        Preconditions:
             - raw_info in same format as "passes_to" dict in LAL.json and DAL.json files
-
         """
         pass_stats = {}
         assists = 0
@@ -87,9 +92,8 @@ class LineupSimulation:
     def process_defense(self, raw_info: dict[str, int]) -> dict:
         """Returns the points, rebounds, blocks, and steals alongside total minutes in a dict.
 
-                Representation Invariant:
-                    - raw_info in same format as "defensive_stats" dict in LAL.json and DAL.json files
-
+        Preconditions:
+            - raw_info in same format as "defensive_stats" dict in LAL.json and DAL.json files
         """
         minutes = raw_info['minutes']
         points = raw_info['points']
@@ -101,20 +105,10 @@ class LineupSimulation:
 
         return defense
 
-    """def get_player(self, player_name: str) -> Optional[_Player]:
-
-        Returns the player object in self.players from the give player_name
-
-
-        for player in self.players:
-            if player == player_name:
-                return self.players[player][0]
-        return None
-    """
-
     def generate_lineup(self) -> list[_Player]:
         """
-
+        Return a list of 5 _Player class, two guards, two forwards, one center. Call on function 'highest_in_position'
+        to return the top players in each position.
         """
         lst = []
 
@@ -133,7 +127,7 @@ class LineupSimulation:
 
     def highest_in_position(self, pos: str) -> tuple[_Player, _Player]:
         """
-        Return top two players in each position
+        Return top two players in given position in self.players based on highest player_impact_estimate
         """
         lst = []
         for player in self.players:
@@ -163,13 +157,8 @@ class LineupSimulation:
 
     def visualize_heatmap(self) -> None:
         """
-        Visualzes the pass synergy of each player in a heatmap
-
-        >>>x=LineupSimulation("DAL.json")
-        >>>x.visualize_heatmap()
-
-        >>>x=LineupSimulation("LAL.json")
-        >>>x.visualize_heatmap()
+        Open a GUI displaying heatmap of passes between players. Call on function in 'visualization.py' that
+        creates the heatmap.
         """
         pass_data = {}
         for player in self.players:
@@ -180,9 +169,17 @@ class LineupSimulation:
 
     def show_graph(self) -> None:
         """
-        >>>x=LineupSimulation("DAL.json")
-        >>>x.show_graph()
-        >>>x=LineupSimulation("LAL.json")
-        >>>x.show_graph()
+        Open a GUI displaying the connections between players. Call on function in 'classes.py' that creates
+        the graph.
         """
         self.team_graph.visualize_graph(self.lineup)
+
+
+if __name__ == '__main__':
+
+    import python_ta
+    python_ta.check_all(config={
+        'max-line-length': 120,
+        'extra-imports': ['json', 'classes', 'visualization'],
+        'disable': ['E9998', 'R0914']
+    })

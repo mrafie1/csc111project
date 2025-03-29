@@ -1,11 +1,19 @@
+"""CSC111 Project 2:
+Top Hoops: NBA Optimal Basketball Lineup
+Abdullah Alhidary, Houssam Yaacoub, Justin Peng, Muhammad Rafie
+
+This module contains the necessary function needed to create the heatmap of player passes which is displayed
+in the 'main.py' file.
+
+This function is in a seperate file as it uses many libraries seldom used in 'main.py' and 'classes.py'
+
+"""
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use("TkAgg")
-
-import classes
 
 
 def create_heatmap(pass_data: dict, team_name: str) -> None:
@@ -33,3 +41,13 @@ def create_heatmap(pass_data: dict, team_name: str) -> None:
     plt.ylabel("Players (Making the Pass)")
     plt.subplots_adjust(left=0.17, right=1.05, top=0.90, bottom=0.28)
     plt.show()
+
+
+if __name__ == '__main__':
+
+    import python_ta
+    python_ta.check_all(config={
+        'max-line-length': 120,
+        'extra-imports': ['numpy', 'pandas', 'seaborn', 'matplotlib', 'matplotlib.pyplot'],
+        'disable': ['E9992']
+    })

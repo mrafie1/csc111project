@@ -1,3 +1,6 @@
+# Testing Code
+python-ta>=2.9.1
+# Graphics and Data Visualization
 networkx~=3.4.2
 numpy~=2.2.4
 pandas~=2.2.3
