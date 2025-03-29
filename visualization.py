@@ -31,5 +31,5 @@ def create_heatmap(pass_data: dict, team_name: str) -> None:
               f"(Note That a Value of 0 Means the Two Players Have Not Played Together)")
     plt.xlabel("Players (Receiving the Pass)")
     plt.ylabel("Players (Making the Pass)")
-    plt.subplots_adjust(left=0.15, right=1.05, top=0.90, bottom=0.28)
+    plt.subplots_adjust(left=0.17, right=1.05, top=0.90, bottom=0.28)
     plt.show()
