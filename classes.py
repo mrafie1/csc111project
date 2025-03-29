@@ -165,6 +165,9 @@ class _Connection:
         """
         Determine if given _Player class is player1 or player2 of _Connection class.
         Then change instance attributes as needed.
+
+        Preconditions:
+            - not (minutes_together == 0) or (assist == 0 and passes == 0)
         """
         # Check if this is player 1
         if self.player_connection[0] == player:
@@ -196,6 +199,9 @@ class _Connection:
     def get_avg_passes_per_minute(self, player_name: str) -> float:
         """
         Returns the average passes per minute of the given player_name to the other player in this connection
+
+        Preconditions:
+            - player_name in [p.name for p in self.player_connection]
         """
         if self.player_connection[0].name == player_name:
             return self.avg_passes_per_minute_player1
@@ -227,6 +233,12 @@ class Graph:
         """
         If _Player class name is not in self._players dictionary,
         create a mapping between _Player name and the _PLayer class itself.
+
+        >>> p = _Player("Bob", "LAL", ["Center"], 5, 5, 5, 5, 5, 5)
+        >>> g = Graph()
+        >>> g.add_player(p)
+        >>> p.name in g._players
+        True
         """
         if player.name not in self._players:
             self._players[player.name] = player
@@ -236,7 +248,7 @@ class Graph:
         """
         Adds connection between two players using the _Connection class
 
-        Representation Invariants:
+        Preconditions:
             - player2 in self._players
         """
         if not self.check_exists(player1.name, player2):
@@ -250,6 +262,9 @@ class Graph:
         """
         Check whether the tuple (player1_name, player2_name) or (player2_name, player1_name) exists
         in self._connections as a key.
+
+        Preconditions:
+            - player1_name in self._players and player2_name in self._players
         """
         keys = self._connections.keys()
         return (player1_name, player2_name) in keys or (player2_name, player1_name) in keys
@@ -269,6 +284,10 @@ class Graph:
         """
         Returns a dict of the average passes per minute of the given player1_name to all the players player1_name
         has passed to
+
+        Preconditions:
+            - player1_name in self._players
+            - all([player in self._players for player in player_names])
         """
         pass_data = {}
         for player2_name in player_names:
@@ -279,7 +298,10 @@ class Graph:
 
     def get_connection_key(self, player1_name: str, player2_name: str) -> tuple[str, str]:
         """
-        Returns the key in self._connections assiosiated with the given player1_name and player2_name
+        Returns the key in self._connections associated with the given player1_name and player2_name
+
+        Preconditions:
+            - player1_name in self._players and player2_name in self._players
         """
         if (player1_name, player2_name) in self._connections:
             return (player1_name, player2_name)
@@ -296,8 +318,6 @@ class Graph:
         If connection synergy score is above 1.75: it is colored green
         If it is between 0.75 and 1.75: it is colored purple
         If it is below 0.75: it is colored dark red
-
-
         """
         nxgraph = nx.Graph()
 
@@ -334,11 +354,17 @@ class Graph:
     def get_connections(self) -> dict:
         """
         Return a copy of this instance _connections attributes.
+
+        >>> a = Graph()
+        >>> a.get_connections() == {}
+        True
         """
         return self._connections.copy()
 
 
 if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
 
     import python_ta
     python_ta.check_all(config={
