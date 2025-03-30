@@ -61,9 +61,6 @@ class LineupSimulation:
             # Maps name to a tuple of _Player object and the passes_to dict seen in the json files
             self.players[player_obj.name] = (player_obj, interactions)
 
-        # graph._players = players
-        # print(players)
-
         for player in self.players:
             player_interactions = self.players[player][1]
 
