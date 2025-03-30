@@ -293,7 +293,6 @@ class Graph:
         for player2_name in player_names:
             curr_key = self.get_connection_key(player1_name, player2_name)
             pass_data[player2_name] = self._connections[curr_key].get_avg_passes_per_minute(player1_name)
-        print(pass_data)
         return pass_data
 
     def get_connection_key(self, player1_name: str, player2_name: str) -> tuple[str, str]:
