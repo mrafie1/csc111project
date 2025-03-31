@@ -350,16 +350,6 @@ class Graph:
         edge_colors_for_drawing = [nxgraph.edges[edge]['color'] for edge in nxgraph.edges]
         nx.draw(nxgraph, pos, with_labels=True, edge_color=edge_colors_for_drawing, node_color=node_colors, font_size=10, alpha=0.7)
 
-    def get_connections(self) -> dict:
-        """
-        Return a copy of this instance _connections attributes.
-
-        >>> a = Graph()
-        >>> a.get_connections() == {}
-        True
-        """
-        return self._connections.copy()
-
 
 if __name__ == '__main__':
     import doctest
